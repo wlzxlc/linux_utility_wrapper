@@ -1,19 +1,18 @@
 #ifndef TELNETD_H_
 #define TELNETD_H_
-#include "critical_section_wrapper.h"
-#include "scoped_ptr.h"
-#include "thread_wrapper.h"
 #include <string>
 #include <list>
+#include <ccstone/thread.h>
+
 class TelnetdCmdHandle{
 public:
-	virtual int Process(const char *args[], int size);
+	virtual int Process(const char *args[], int size) = 0;
+    virtual ~TelnetdCmdHandle(){}
 };
 
-class Telnetd{
+class Telnetd :public CCStone::Thread {
 private:
-	webrtc::scoped_ptr<webrtc::ThreadWrapper> _thread;
-	webrtc::scoped_ptr<webrtc::CriticalSectionWrapper> _lock;
+    CCStone::Mutex _lock;
 	bool _init;
 	const char *_author;
 	const char *_password;
@@ -29,9 +28,8 @@ private:
 		};
 	std::list<_CmdTable> _table;
 private:
-	bool Process();
+	virtual bool run();
 	int TelnetdHandle(const char *cmd, const char *args[], int size);
-	static bool _thread_process(void *p);
 	static int OspUniformFuncCMD(const char *cmd,const char *args[], int size, void  *priv);
 public:
  Telnetd();

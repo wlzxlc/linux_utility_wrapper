@@ -30,17 +30,17 @@ enum {
 	TRACE_LOG_SILENT, /* only for SetMinPriority(); must be last */
 };
 
-typedef status (*trace_log_write)(int prio, const char *tag, const char *msg);
+typedef status_t (*trace_log_write)(int prio, const char *tag, const char *msg);
 
 /*
  * Redirect log output
  */
-status __trace_log_redirect(trace_log_write);
+status_t __trace_log_redirect(trace_log_write);
 
 /*
  * Send a formatted string to the log, used like printf(fmt,...)
  */
-status __trace_log_print(int prio, const char *tag, const char *fmt, ...)
+status_t __trace_log_print(int prio, const char *tag, const char *fmt, ...)
 #if defined(__GNUC__)
 		__attribute__ ((format(printf, 3, 4)))
 #endif

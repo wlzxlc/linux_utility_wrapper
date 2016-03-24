@@ -1,6 +1,8 @@
 #include "telnetd_wrapper.h"
 #include <unistd.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <assert.h>
 
 class TelnetdCmdHandleImpl:public TelnetdCmdHandle {
 private:

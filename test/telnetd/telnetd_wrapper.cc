@@ -1,6 +1,6 @@
 #include <assert.h>
 #include "telnetd_wrapper.h"
-#include <ccstone/osptele.h>
+#include <ccstone/telnetd/osptele.h>
 #include <stdarg.h>
 #include <unistd.h>
 #ifndef MAX_MESSAGE_SIZE
@@ -8,10 +8,6 @@
 #define MAX_MESSAGE_SIZE 1024
 #endif
 
-bool Telnetd::_thread_process(void *p){
-	Telnetd *self = (Telnetd *)p;
-	return self->Process();
-}
 int Telnetd::OspUniformFuncCMD(const char *cmd,const char *args[],int size ,void  *priv){
 	Telnetd *telnetd = (Telnetd *)priv;
 	int ret = 0;
@@ -22,27 +18,20 @@ int Telnetd::OspUniformFuncCMD(const char *cmd,const char *args[],int size ,void
 }
 Telnetd::Telnetd():_init(false),_threadName(NULL){
 	_table.clear();
-	_thread.reset(NULL);
-	_lock.reset(NULL);
 }
  int Telnetd::Init(int16_t port, const char *threadName, const char *author,
  	const char *password ){
 	if (!_init){
-		_thread.reset(webrtc::ThreadWrapper::CreateThread(_thread_process,this,
-			webrtc::kNormalPriority,threadName));
-		assert(_thread.get());
 		_port = port ? port:3389;
 		_author = author;
 		_password = password;
         _threadName = threadName;
-		uint32_t tid = 0;
-		assert(_thread->Start(tid));
-		_lock.reset(webrtc::CriticalSectionWrapper::CreateCriticalSection());
-        assert(_lock.get());
+        setName(threadName);
+        CHECK_GT((int)start(), 0);
 	}
 		return 0;
  }
- bool Telnetd::Process(){
+ bool Telnetd::run(){
  	OspUniformFuncRedirect(Telnetd::OspUniformFuncCMD,this);
 	printf("Telned start\n");
  	OspTeleDaemon(_port, _threadName);
@@ -52,7 +41,7 @@ Telnetd::Telnetd():_init(false),_threadName(NULL){
 	TelnetdCmdHandle *handle = NULL;
 	int ret = -1;
  	if (cmd){
-		webrtc::CriticalSectionScoped autoLock(_lock.get());
+	 	CCStone::AutoLock autoLock(&_lock);
 		std::list<_CmdTable>::iterator item = _table.end();
 		for (item = _table.begin(); item != _table.end(); item ++ ){
 				if ((*item).cmd == std::string(cmd)){
@@ -68,14 +57,14 @@ Telnetd::Telnetd():_init(false),_threadName(NULL){
 	return ret;
  }
  int Telnetd::RequestExit(){
- 	if (_thread.get())
- 		_thread->SetNotAlive();
-	OspExit();
+     stop();
+     waitExit();
+     OspExit();
 	return 0;
  }
  int Telnetd::RegisterCommand(const char *cmd, const char * usage, TelnetdCmdHandle *handle){
  	if (cmd && handle && _table.size() < RegCMD_TABLE_SIZE){
-	 	webrtc::CriticalSectionScoped autoLock(_lock.get());
+	 	CCStone::AutoLock autoLock(&_lock);
 		OspRegCommand(cmd,NULL,usage);
 		_table.push_back(_CmdTable(cmd,handle));
  		}
@@ -83,7 +72,7 @@ Telnetd::Telnetd():_init(false),_threadName(NULL){
  }
  int Telnetd::DeRegisterCommand(const char *cmd){
  	if (cmd){
-		webrtc::CriticalSectionScoped autoLock(_lock.get());
+	 	CCStone::AutoLock autoLock(&_lock);
 		std::list<_CmdTable>::iterator item = _table.end();
 		for (item = _table.begin(); item != _table.end(); item ++ ){
 				if ((*item).cmd == std::string(cmd)){

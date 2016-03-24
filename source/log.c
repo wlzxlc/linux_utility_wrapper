@@ -27,7 +27,7 @@
 static trace_log_write trace_log_fun;
 
 #ifndef ANDROID_LOG
-static int __trace_log_write(int prio, const char *tag, const char *msg){
+static status_t __trace_log_write(int prio, const char *tag, const char *msg){
 	int ret = -1;
 	if (prio >= TRACE_LOG_UNKNOWN && prio <= TRACE_LOG_SILENT) {
 		static const char vtab[TRACE_LOG_SILENT + 1] = { 'U', 'd', 'V', 'D',
@@ -37,7 +37,7 @@ static int __trace_log_write(int prio, const char *tag, const char *msg){
 	return ret;
 }
 #endif
-int __trace_log_redirect(trace_log_write pfun){
+status_t __trace_log_redirect(trace_log_write pfun){
 	trace_log_fun = pfun;
 	return 0;
 }
@@ -53,7 +53,7 @@ static int __trace_internal_write(int prio, const char *tag,
 	return (*pfun)(prio, tag, msg);
 }
 
-int __trace_log_print(int prio, const char *tag, const char *fmt, ...) {
+status_t __trace_log_print(int prio, const char *tag, const char *fmt, ...) {
 	va_list ap;
 	char buf[LOG_BUF_SIZE];
 	va_start(ap, fmt);

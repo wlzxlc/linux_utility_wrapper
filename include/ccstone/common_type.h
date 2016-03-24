@@ -11,7 +11,7 @@
 #ifndef _COMMON_TYPE_H_
 #define _COMMON_TYPE_H_
 #include <stdint.h>
-typedef int status;
+typedef int status_t;
 
 /////////////////////////////////////////////////////////
 //                                                     //

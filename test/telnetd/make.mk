@@ -13,7 +13,7 @@ include $(BUILD_TEST)
 include $(CLEAR_VARS)
 LOCAL_MODULE := test_telnetd_c++
 LOCAL_SRC_FILES :=  telnetd_wrapper.cc testc++.cc
-LOCAL_CFLAGS := -DTELNETD_PORT=3389 -UNDEBUG
+LOCAL_CFLAGS := -DTELNETD_PORT=3389 -UNDEBUG -D_LINUX_
 
 LOCAL_STATIC_LIBRARIES := linux_utility
 
