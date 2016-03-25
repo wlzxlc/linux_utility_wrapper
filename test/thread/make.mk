@@ -1,7 +1,7 @@
 # ----------------------------------------------------
 # Auto genarate templements
-# Author : lichao@kedacom.com
-# Time   :Tue Mar 22 14:52:49 CST 2016
+# Author : lichao@keacom.com
+# Time   :2016年 03月 08日 星期二 20:21:56 CST
 # ----------------------------------------------------
 # Always to point an absolute path of the this make.mk
 LOCAL_PATH := $(call my-dir)
@@ -13,28 +13,18 @@ LOCAL_PATH := $(call my-dir)
 # About to usage of the this make.mk, you are can 
 # to see :
 # $(sysbuild_root)/docs/make_mk.txt
+ 
+ 
+# Include others make.mk
+# $(call include-makefiles, /foo/make.mk /boo/make.mk)
+include $(CLEAR_VARS)
+LOCAL_MODULE := thread_test
 
-ROOT := $(LOCAL_PATH)
+LOCAL_SRC_FILES := thread.cpp
 
-# Have telnetd support
-HAVE_LOG = 1
+LOCAL_LINK_MODE := c++
 
-# Have telnetd support
-HAVE_THREAD = 1
+LOCAL_C_INCLUDES := $(LOCAL_PATH) 
 
-# Have telnetd support
-HAVE_TELNETD = 1
-
-# Have Opengles support
-HAVE_OPENGLES = 1
-
-# Delete out and release directory.
-.PHONY : project_clean
-
-project_clean:
-	@rm -rf $(APP_OUTPUT_DIR)
-	@rm -rf $(APP_RELEASE_DIR)
-
-$(call add-module-clean,,project_clean)
-
-include $(call all-subdir-makefiles)
+LOCAL_STATIC_LIBRARIES := linux_utility
+include $(BUILD_TEST)

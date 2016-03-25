@@ -5,19 +5,23 @@ static int command(int a1,int a2,int a3,int a4){
 	TelePrint(buffer);
     return 0;
 }
+
 static void command2(int a1){
 	OspPrintf(TRUE,TRUE,"%s %d\n",__func__,a1);
 	return;
 }
+
 struct AA{
 	int a;
 	int c;
 	int d;
 };
+
 static void command3(struct AA a){
 	OspPrintf(TRUE,TRUE,"%s a %d \n",__func__,a.a);
 	return;
 }
+
 int main(int c, char **s)
 {
    int port = 3389;

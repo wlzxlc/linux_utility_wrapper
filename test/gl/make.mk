@@ -1,7 +1,7 @@
 # ----------------------------------------------------
 # Auto genarate templements
 # Author : lichao@keacom.com
-# Time   :Tue Mar 22 16:36:31 CST 2016
+# Time   :2016年 03月 08日 星期二 20:21:56 CST
 # ----------------------------------------------------
 # Always to point an absolute path of the this make.mk
 LOCAL_PATH := $(call my-dir)
@@ -17,26 +17,24 @@ LOCAL_PATH := $(call my-dir)
  
 # Include others make.mk
 # $(call include-makefiles, /foo/make.mk /boo/make.mk)
+include $(CLEAR_VARS)
+LOCAL_MODULE := gl_test
 
-TEST_MODULE :=
+LOCAL_SRC_FILES := gl.cpp
 
-ifdef HAVE_LOG
-  TEST_MODULE += log
-endif
+LOCAL_LINK_MODE := c++
 
-ifdef HAVE_OPENGLES
-  TEST_MODULE += gl
-endif
+LOCAL_C_INCLUDES := $(LOCAL_PATH) 
 
-ifdef HAVE_TELNETD
- TEST_MODULE += telnetd
-endif
+LOCAL_STATIC_LIBRARIES := linux_utility
+include $(BUILD_TEST)
 
-ifdef HAVE_THREAD
- TEST_MODULE += thread
-endif
+include $(CLEAR_VARS)
+LOCAL_MODULE := gl_graphic_buffer_test
 
-$(foreach module, $(TEST_MODULE), \
-	$(eval $(call include-makefile, \
-	$(LOCAL_PATH)/$(module)/make.mk)))
+LOCAL_SRC_FILES := graphics.cpp
 
+LOCAL_LINK_MODE := c++
+
+LOCAL_C_INCLUDES := $(LOCAL_PATH) 
+include $(BUILD_TEST)

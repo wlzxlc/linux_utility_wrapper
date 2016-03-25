@@ -19,29 +19,58 @@ LOCAL_PATH := $(call my-dir)
 # $(call include-makefiles, /foo/make.mk /boo/make.mk)
  
 include $(CLEAR_VARS)
-LOCAL_SRC_FILES += ./log.c
+LOCAL_CFLAGS += -UNDEBUG -Werror
+LOCAL_C_INCLUDES += $(ROOT)/include
 
-#include telnetd
-LOCAL_SRC_FILES += telnetd/ospsock.c \
-				   telnetd/osptele.c
+ifdef HAVE_LOG
+LOCAL_SRC_FILES += log.c
+endif
 
-LOCAL_CFLAGS := -D_LINUX_\
-	            -UNDEBUG \
-         	    -Wno-pointer-to-int-cast 
+ifdef HAVE_THREAD
+  LOCAL_EXPORT_CFLAGS += -DHAVE_THREAD
+endif
 
-LOCAL_C_INCLUDES := $(ROOT)/include
+ifdef HAVE_TELNETD
+LOCAL_SRC_FILES += telnetd/ospsock.c
+LOCAL_SRC_FILES += telnetd/osptele.c
+LOCAL_CFLAGS += -D_LINUX_
+endif
+
+ifdef HAVE_OPENGLES
+LOCAL_SRC_FILES += gl/GLES11RenderEngine.cpp
+LOCAL_SRC_FILES += gl/Mesh.cpp
+LOCAL_SRC_FILES += gl/ProgramCache.cpp
+LOCAL_SRC_FILES += gl/Rect.cpp
+LOCAL_SRC_FILES += gl/Texture.cpp
+LOCAL_SRC_FILES += gl/Transform.cpp
+LOCAL_SRC_FILES += gl/RenderEngine.cpp
+LOCAL_SRC_FILES += gl/Region.cpp
+LOCAL_SRC_FILES += gl/GLExtensions.cpp
+LOCAL_SRC_FILES += gl/Description.cpp
+LOCAL_SRC_FILES += gl/Program.cpp
+LOCAL_SRC_FILES += gl/GLES20RenderEngine.cpp
+LOCAL_SRC_FILES += gl/GLES10RenderEngine.cpp
+LOCAL_CFLAGS += -DGL_GLEXT_PROTOTYPES 
+LOCAL_CFLAGS += -Wno-enum-compare
+LOCAL_EXPORT_LDLIBS += -lGLESv2 
+LOCAL_EXPORT_LDLIBS += -lEGL
+LOCAL_EXPORT_LDLIBS += -lGLESv1_CM 
+LOCAL_EXPORT_CFLAGS += -DGL_GLEXT_PROTOTYPES
+LOCAL_EXPORT_CFLAGS += -DEGL_EGLEXT_PROTOTYPES
+LOCAL_C_INCLUDES += $(LOCAL_PATH)/gl 
+endif
 
 LOCAL_MODULE := linux_utility
 LOCAL_MODULE_FILENAME := liblinux_utility
 
-LOCAL_EXPORT_C_INCLUDES := $(ROOT)/include
+LOCAL_EXPORT_C_INCLUDES += $(ROOT)/include
+LOCAL_EXPORT_CFLAGS += -Werror
 
 ifeq ($(TARGET_PLATFORM),android)
-
-ifdef ANDROID_LOG
- LOCAL_CFLAGS += -DANDROID_LOG
- LOCAL_EXPORT_LDLIBS := -llog
-endif
+ ifdef ANDROID_LOG
+  LOCAL_CFLAGS += -DANDROID_LOG
+  LOCAL_EXPORT_LDLIBS := -llog
+ endif
 endif
 
 ifdef TARGET_RELEASE_DIR

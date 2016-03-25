@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 # Build test
 include $(CLEAR_VARS)
-LOCAL_MODULE := test_telnetd
+LOCAL_MODULE := telnetd_test
 LOCAL_SRC_FILES := telnetd.c
 LOCAL_CFLAGS := -DTELNETD_PORT=3389
 LOCAL_STATIC_LIBRARIES := linux_utility
@@ -11,7 +11,7 @@ endif
 include $(BUILD_TEST)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := test_telnetd_c++
+LOCAL_MODULE := telnetd_c++_test
 LOCAL_SRC_FILES :=  telnetd_wrapper.cc testc++.cc
 LOCAL_CFLAGS := -DTELNETD_PORT=3389 -UNDEBUG -D_LINUX_
 

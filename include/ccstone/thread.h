@@ -1,5 +1,7 @@
 #ifndef _THREAD_H_
 #define _THREAD_H_
+
+#ifdef HAVE_THREAD
 #include <pthread.h>
 #include <sys/prctl.h>
 #include "common_type.h"
@@ -224,4 +226,7 @@ class Thread {
 
 } /*end of the CCStone*/
 #endif /*end of __cplusplus */
+#else
+ #error Undefined HAVE_THREAD macro.
+#endif /* HAVE_THREAD*/
 #endif

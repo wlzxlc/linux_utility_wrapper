@@ -1,0 +1,911 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALOGD	util.h	17;"	d
+ALOGE	util.h	21;"	d
+ALOGE_IF	util.h	33;"	d
+ALOGI	util.h	25;"	d
+ALOGW	util.h	29;"	d
+ANDROID_BASIC_TYPES_TRAITS	TypeHelpers.h	83;"	d
+ANDROID_INT32_HASH	TypeHelpers.h	273;"	d
+ANDROID_INT64_HASH	TypeHelpers.h	275;"	d
+ANDROID_REINTERPRET_HASH	TypeHelpers.h	278;"	d
+ANDROID_SF_GLEXTENSION_H	GLExtensions.h	18;"	d
+ANDROID_TRANSFORM_H	Transform.h	18;"	d
+ANDROID_TRIVIAL_COPY_TRAIT	TypeHelpers.h	77;"	d
+ANDROID_TRIVIAL_CTOR_TRAIT	TypeHelpers.h	71;"	d
+ANDROID_TRIVIAL_DTOR_TRAIT	TypeHelpers.h	74;"	d
+ANDROID_TRIVIAL_MOVE_TRAIT	TypeHelpers.h	80;"	d
+ANDROID_TYPE_HELPERS_H	TypeHelpers.h	18;"	d
+ANDROID_UI_POINT	Point.h	18;"	d
+ANDROID_UI_PRIVATE_REGION_HELPER_H	RegionHelper.h	18;"	d
+ANDROID_UI_RECT	Rect.h	18;"	d
+ANDROID_UI_REGION_H	Region.h	18;"	d
+ANDROID_UTILS_FLATTENABLE_H	Flattenable.h	18;"	d
+ATRACE_TAG	GLES20RenderEngine.cpp	17;"	d	file:
+Adder	RenderEngine.cpp	/^        Adder(EGLAttributeVector& v, EGLint attribute)$/;"	f	class:CCStone::EGLAttributeVector::Adder	file:
+Adder	RenderEngine.cpp	/^    class Adder {$/;"	c	class:CCStone::EGLAttributeVector	file:
+Attribute	RenderEngine.cpp	/^        Attribute() {};$/;"	f	struct:CCStone::EGLAttributeVector::Attribute
+Attribute	RenderEngine.cpp	/^        Attribute(EGLint v) : v(v) { }$/;"	f	struct:CCStone::EGLAttributeVector::Attribute
+Attribute	RenderEngine.cpp	/^    struct Attribute {$/;"	s	class:CCStone::EGLAttributeVector	file:
+BAD_VALUE	util.h	9;"	d
+BLEND_MASK	ProgramCache.h	/^            BLEND_MASK              =       0x00000001,$/;"	e	enum:CCStone::ProgramCache::Key::__anon37
+BLEND_NORMAL	ProgramCache.h	/^            BLEND_NORMAL            =       0x00000000,$/;"	e	enum:CCStone::ProgramCache::Key::__anon37
+BLEND_PREMULT	ProgramCache.h	/^            BLEND_PREMULT           =       0x00000001,$/;"	e	enum:CCStone::ProgramCache::Key::__anon37
+BindImageAsFramebuffer	RenderEngine.cpp	/^RenderEngine::BindImageAsFramebuffer::BindImageAsFramebuffer($/;"	f	class:CCStone::RenderEngine::BindImageAsFramebuffer
+BindImageAsFramebuffer	RenderEngine.h	/^    class BindImageAsFramebuffer {$/;"	c	class:CCStone::RenderEngine
+CCSTONE_OPENGL_UTIL_H_	util.h	2;"	d
+CCStone	Description.cpp	/^namespace CCStone {$/;"	n	file:
+CCStone	Description.h	/^namespace CCStone {$/;"	n
+CCStone	Flattenable.h	/^namespace CCStone {$/;"	n
+CCStone	GLES11RenderEngine.cpp	/^namespace CCStone {$/;"	n	file:
+CCStone	GLES11RenderEngine.h	/^namespace CCStone {$/;"	n
+CCStone	GLES20RenderEngine.cpp	/^namespace CCStone {$/;"	n	file:
+CCStone	GLExtensions.cpp	/^namespace CCStone {$/;"	n	file:
+CCStone	GLExtensions.h	/^namespace CCStone {$/;"	n
+CCStone	Mesh.h	/^namespace CCStone {$/;"	n
+CCStone	Point.h	/^namespace CCStone {$/;"	n
+CCStone	Program.cpp	/^namespace CCStone {$/;"	n	file:
+CCStone	ProgramCache.h	/^namespace CCStone {$/;"	n
+CCStone	Rect.cpp	/^namespace CCStone {$/;"	n	file:
+CCStone	Rect.h	/^namespace CCStone {$/;"	n
+CCStone	Region.cpp	/^namespace CCStone {$/;"	n	file:
+CCStone	Region.h	/^namespace CCStone {$/;"	n
+CCStone	RegionHelper.h	/^namespace CCStone {$/;"	n
+CCStone	RenderEngine.cpp	/^namespace CCStone {$/;"	n	file:
+CCStone	RenderEngine.h	/^namespace CCStone {$/;"	n
+CCStone	TMatHelpers.h	/^namespace CCStone {$/;"	n
+CCStone	TVecHelpers.h	/^namespace CCStone {$/;"	n
+CCStone	Texture.cpp	/^namespace CCStone {$/;"	n	file:
+CCStone	Texture.h	/^namespace CCStone {$/;"	n
+CCStone	Transform.cpp	/^namespace CCStone {$/;"	n	file:
+CCStone	Transform.h	/^namespace CCStone {$/;"	n
+CCStone	TypeHelpers.h	/^namespace CCStone {$/;"	n
+CCStone	mat4.h	/^namespace CCStone {$/;"	n
+CCStone	util.h	/^namespace CCStone {$/;"	n
+CCStone	vec2.h	/^namespace CCStone {$/;"	n
+CCStone	vec3.h	/^namespace CCStone {$/;"	n
+CCStone	vec4.h	/^namespace CCStone {$/;"	n
+CC_UNLIKELY	util.h	13;"	d
+COLOR_MATRIX_MASK	ProgramCache.h	/^            COLOR_MATRIX_MASK       =       0x00000020,$/;"	e	enum:CCStone::ProgramCache::Key::__anon37
+COLOR_MATRIX_OFF	ProgramCache.h	/^            COLOR_MATRIX_OFF        =       0x00000000,$/;"	e	enum:CCStone::ProgramCache::Key::__anon37
+COLOR_MATRIX_ON	ProgramCache.h	/^            COLOR_MATRIX_ON         =       0x00000020,$/;"	e	enum:CCStone::ProgramCache::Key::__anon37
+COL_SIZE	mat4.h	/^    enum { COL_SIZE = col_type::SIZE };$/;"	e	enum:CCStone::tmat44::__anon27
+COMPILE_TIME_ASSERT	util.h	49;"	d
+COMPILE_TIME_ASSERT_FUNCTION_SCOPE	util.h	52;"	d
+CompileTimeAssert	util.h	/^    template<> struct CompileTimeAssert<true> {}; $/;"	s	namespace:CCStone
+CompileTimeIfElse	util.h	/^        struct CompileTimeIfElse<false, LHS, RHS> { typedef RHS TYPE; };$/;"	s	namespace:CCStone
+CompileTimeIfElse	util.h	/^        struct CompileTimeIfElse<true,  LHS, RHS> { typedef LHS TYPE; };$/;"	s	namespace:CCStone
+Description	Description.cpp	/^Description::Description() :$/;"	f	class:CCStone::Description
+Description	Description.h	/^class Description {$/;"	c	namespace:CCStone
+EGLAttributeVector	RenderEngine.cpp	/^    EGLAttributeVector() {$/;"	f	class:CCStone::EGLAttributeVector
+EGLAttributeVector	RenderEngine.cpp	/^class EGLAttributeVector {$/;"	c	namespace:CCStone	file:
+EGL_NO_CONFIG	RenderEngine.h	29;"	d
+EPSILON	Transform.cpp	/^static const float EPSILON = 0.0f;$/;"	m	namespace:CCStone	file:
+FLIP_H	Transform.h	/^                FLIP_H  = HAL_TRANSFORM_FLIP_H,$/;"	e	enum:CCStone::Transform::orientation_flags
+FLIP_V	Transform.h	/^                FLIP_V  = HAL_TRANSFORM_FLIP_V,$/;"	e	enum:CCStone::Transform::orientation_flags
+Flattenable	Flattenable.h	/^class Flattenable {$/;"	c	namespace:CCStone
+FlattenableUtils	Flattenable.h	/^class FlattenableUtils {$/;"	c	namespace:CCStone
+FormaterManipFunc	ProgramCache.cpp	/^    typedef Formatter& (*FormaterManipFunc)(Formatter&);$/;"	t	class:android::Formatter	file:
+Formatter	ProgramCache.cpp	/^    Formatter() : mIndent(0) {}$/;"	f	class:android::Formatter
+Formatter	ProgramCache.cpp	/^class Formatter {$/;"	c	namespace:android	file:
+GLES10RenderEngine	GLES10RenderEngine.h	/^class GLES10RenderEngine : public GLES11RenderEngine {$/;"	c	namespace:android
+GLES11RenderEngine	GLES11RenderEngine.cpp	/^GLES11RenderEngine::GLES11RenderEngine() {$/;"	f	class:CCStone::GLES11RenderEngine
+GLES11RenderEngine	GLES11RenderEngine.h	/^class GLES11RenderEngine : public RenderEngine {$/;"	c	namespace:CCStone
+GLES20RenderEngine	GLES20RenderEngine.cpp	/^GLES20RenderEngine::GLES20RenderEngine() :$/;"	f	class:CCStone::GLES20RenderEngine
+GLES20RenderEngine	GLES20RenderEngine.h	/^class GLES20RenderEngine : public RenderEngine {$/;"	c	namespace:android
+GLES_VERSION_1_0	RenderEngine.h	/^        GLES_VERSION_1_0    = 0x10000,$/;"	e	enum:CCStone::RenderEngine::GlesVersion
+GLES_VERSION_1_1	RenderEngine.h	/^        GLES_VERSION_1_1    = 0x10001,$/;"	e	enum:CCStone::RenderEngine::GlesVersion
+GLES_VERSION_2_0	RenderEngine.h	/^        GLES_VERSION_2_0    = 0x20000,$/;"	e	enum:CCStone::RenderEngine::GlesVersion
+GLES_VERSION_3_0	RenderEngine.h	/^        GLES_VERSION_3_0    = 0x30000,$/;"	e	enum:CCStone::RenderEngine::GlesVersion
+GLExtensions	GLExtensions.cpp	/^GLExtensions::GLExtensions()$/;"	f	class:CCStone::GLExtensions
+GLExtensions	GLExtensions.h	/^class GLExtensions : public Singleton<GLExtensions>$/;"	c	namespace:CCStone
+GlesVersion	RenderEngine.h	/^    enum GlesVersion {$/;"	g	class:CCStone::RenderEngine
+Group	GLES20RenderEngine.h	/^    struct Group {$/;"	s	class:android::GLES20RenderEngine
+HAL_TRANSFORM_FLIP_H	util.h	/^        HAL_TRANSFORM_FLIP_H    = 0x01,$/;"	e	enum:CCStone::__anon34
+HAL_TRANSFORM_FLIP_V	util.h	/^        HAL_TRANSFORM_FLIP_V    = 0x02,$/;"	e	enum:CCStone::__anon34
+HAL_TRANSFORM_RESERVED	util.h	/^        HAL_TRANSFORM_RESERVED  = 0x08,$/;"	e	enum:CCStone::__anon34
+HAL_TRANSFORM_ROT_180	util.h	/^        HAL_TRANSFORM_ROT_180   = 0x03,$/;"	e	enum:CCStone::__anon34
+HAL_TRANSFORM_ROT_270	util.h	/^        HAL_TRANSFORM_ROT_270   = 0x07,$/;"	e	enum:CCStone::__anon34
+HAL_TRANSFORM_ROT_90	util.h	/^        HAL_TRANSFORM_ROT_90    = 0x04,$/;"	e	enum:CCStone::__anon34
+IDENTITY	Transform.h	/^                IDENTITY            = 0,$/;"	e	enum:CCStone::Transform::type_mask
+Impersonator	TVecHelpers.h	/^struct Impersonator {$/;"	s	namespace:CCStone
+Instence	util.h	/^  static T *Instence() {$/;"	f	class:CCStone::Singleton
+Key	ProgramCache.h	/^        inline Key() : mKey(0) { }$/;"	f	class:CCStone::ProgramCache::Key
+Key	ProgramCache.h	/^        inline Key(const Key& rhs) : mKey(rhs.mKey) { }$/;"	f	class:CCStone::ProgramCache::Key
+Key	ProgramCache.h	/^    class Key {$/;"	c	class:CCStone::ProgramCache
+LHS	RegionHelper.h	/^    static const uint32_t LHS = 0x5;  \/\/ 0b101$/;"	m	class:CCStone::region_operator
+LOG_ALWAYS_FATAL	util.h	37;"	d
+LOG_ALWAYS_FATAL_IF	util.h	41;"	d
+LOG_TAG	Region.cpp	17;"	d	file:
+LightFlattenable	Flattenable.h	/^class LightFlattenable {$/;"	c	namespace:CCStone
+LightFlattenablePod	Flattenable.h	/^class LightFlattenablePod : public LightFlattenable<T> {$/;"	c	namespace:CCStone
+Mesh	Mesh.cpp	/^Mesh::Mesh(Primitive primitive, size_t vertexCount, size_t vertexSize, size_t texCoordSize)$/;"	f	class:android::Mesh
+Mesh	Mesh.h	/^class Mesh {$/;"	c	namespace:CCStone
+NAME_NOT_FOUND	util.h	10;"	d
+NO_ERROR	util.h	7;"	d
+NO_INIT	mat4.h	/^    enum no_init { NO_INIT };$/;"	e	enum:CCStone::tmat44::no_init
+NO_INIT	vec2.h	/^    enum no_init { NO_INIT };$/;"	e	enum:CCStone::tvec2::no_init
+NO_INIT	vec3.h	/^    enum no_init { NO_INIT };$/;"	e	enum:CCStone::tvec3::no_init
+NO_INIT	vec4.h	/^    enum no_init { NO_INIT };$/;"	e	enum:CCStone::tvec4::no_init
+NO_MEMORY	util.h	8;"	d
+OPACITY_MASK	ProgramCache.h	/^            OPACITY_MASK            =       0x00000002,$/;"	e	enum:CCStone::ProgramCache::Key::__anon37
+OPACITY_OPAQUE	ProgramCache.h	/^            OPACITY_OPAQUE          =       0x00000002,$/;"	e	enum:CCStone::ProgramCache::Key::__anon37
+OPACITY_TRANSLUCENT	ProgramCache.h	/^            OPACITY_TRANSLUCENT     =       0x00000000,$/;"	e	enum:CCStone::ProgramCache::Key::__anon37
+PLANE_ALPHA_EQ_ONE	ProgramCache.h	/^            PLANE_ALPHA_EQ_ONE      =       0x00000000,$/;"	e	enum:CCStone::ProgramCache::Key::__anon37
+PLANE_ALPHA_LT_ONE	ProgramCache.h	/^            PLANE_ALPHA_LT_ONE      =       0x00000004,$/;"	e	enum:CCStone::ProgramCache::Key::__anon37
+PLANE_ALPHA_MASK	ProgramCache.h	/^            PLANE_ALPHA_MASK        =       0x00000004,$/;"	e	enum:CCStone::ProgramCache::Key::__anon37
+PURE	TMatHelpers.h	257;"	d
+PURE	TMatHelpers.h	33;"	d
+PURE	TVecHelpers.h	30;"	d
+PURE	TVecHelpers.h	375;"	d
+PURE	mat4.h	28;"	d
+PURE	mat4.h	392;"	d
+Point	Point.h	/^    inline Point() {$/;"	f	class:CCStone::Point
+Point	Point.h	/^    inline Point(int x, int y) : x(x), y(y) {$/;"	f	class:CCStone::Point
+Point	Point.h	/^class Point : public LightFlattenablePod<Point>$/;"	c	namespace:CCStone
+Primitive	Mesh.h	/^    enum Primitive {$/;"	g	class:CCStone::Mesh
+Program	Program.cpp	/^Program::Program(const ProgramCache::Key& \/*needs*\/, const char* vertex, const char* fragment)$/;"	f	class:CCStone::Program
+Program	Program.h	/^class Program {$/;"	c	namespace:android
+ProgramCache	ProgramCache.cpp	/^ProgramCache::ProgramCache() {$/;"	f	class:android::ProgramCache
+ProgramCache	ProgramCache.h	/^class ProgramCache : public Singleton<ProgramCache> {$/;"	c	namespace:CCStone
+RHS	RegionHelper.h	/^    static const uint32_t RHS = 0x6;  \/\/ 0b110$/;"	m	class:CCStone::region_operator
+ROTATE	Transform.h	/^                ROTATE              = 0x2,$/;"	e	enum:CCStone::Transform::type_mask
+ROT_0	Transform.h	/^                ROT_0   = 0x00000000,$/;"	e	enum:CCStone::Transform::orientation_flags
+ROT_180	Transform.h	/^                ROT_180 = FLIP_H|FLIP_V,$/;"	e	enum:CCStone::Transform::orientation_flags
+ROT_270	Transform.h	/^                ROT_270 = ROT_180|ROT_90,$/;"	e	enum:CCStone::Transform::orientation_flags
+ROT_90	Transform.h	/^                ROT_90  = HAL_TRANSFORM_ROT_90,$/;"	e	enum:CCStone::Transform::orientation_flags
+ROT_INVALID	Transform.h	/^                ROT_INVALID = 0x80$/;"	e	enum:CCStone::Transform::orientation_flags
+ROW_SIZE	mat4.h	/^    enum { ROW_SIZE = row_type::SIZE };$/;"	e	enum:CCStone::tmat44::__anon28
+Rect	Rect.h	/^    inline Rect() {$/;"	f	class:CCStone::Rect
+Rect	Rect.h	/^    inline Rect(const Point& lt, const Point& rb) {$/;"	f	class:CCStone::Rect
+Rect	Rect.h	/^    inline Rect(int32_t l, int32_t t, int32_t r, int32_t b) {$/;"	f	class:CCStone::Rect
+Rect	Rect.h	/^    inline Rect(int32_t w, int32_t h) {$/;"	f	class:CCStone::Rect
+Rect	Rect.h	/^class Rect : public ARect, public LightFlattenablePod<Rect>$/;"	c	namespace:CCStone
+Region	Region.cpp	/^Region::Region() {$/;"	f	class:CCStone::Region
+Region	Region.cpp	/^Region::Region(const Rect& rhs) {$/;"	f	class:CCStone::Region
+Region	Region.cpp	/^Region::Region(const Region& rhs)$/;"	f	class:CCStone::Region
+Region	Region.h	/^class Region : public LightFlattenable<Region>$/;"	c	namespace:CCStone
+RenderEngine	RenderEngine.cpp	/^RenderEngine::RenderEngine() : mEGLContext(EGL_NO_CONTEXT) {$/;"	f	class:CCStone::RenderEngine
+RenderEngine	RenderEngine.h	/^class RenderEngine {$/;"	c	namespace:CCStone
+SCALE	Transform.h	/^                SCALE               = 0x4,$/;"	e	enum:CCStone::Transform::type_mask
+SF_GLES10RENDERENGINE_H_	GLES10RenderEngine.h	19;"	d
+SF_GLES11RENDERENGINE_H_	GLES11RenderEngine.h	19;"	d
+SF_GLES20RENDERENGINE_H_	GLES20RenderEngine.h	19;"	d
+SF_RENDERENGINE_H_	RenderEngine.h	19;"	d
+SF_RENDER_ENGINE_DESCRIPTION_H_	Description.h	21;"	d
+SF_RENDER_ENGINE_MESH_H	Mesh.h	18;"	d
+SF_RENDER_ENGINE_PROGRAMCACHE_H	ProgramCache.h	18;"	d
+SF_RENDER_ENGINE_PROGRAM_H	Program.h	18;"	d
+SF_RENDER_ENGINE_TEXTURE_H	Texture.h	21;"	d
+SIZE	vec2.h	/^    enum { SIZE = 2 };$/;"	e	enum:CCStone::tvec2::__anon33
+SIZE	vec3.h	/^    enum { SIZE = 3 };$/;"	e	enum:CCStone::tvec3::__anon17
+SIZE	vec4.h	/^    enum { SIZE = 4 };$/;"	e	enum:CCStone::tvec4::__anon22
+Singleton	util.h	/^class Singleton : public T {$/;"	c	namespace:CCStone
+Spanner	RegionHelper.h	/^        inline Spanner(const region& lhs, const region& rhs)$/;"	f	class:CCStone::region_operator::Spanner
+Spanner	RegionHelper.h	/^    class Spanner : protected SpannerBase $/;"	c	class:CCStone::region_operator
+SpannerBase	RegionHelper.h	/^        SpannerBase()$/;"	f	class:CCStone::region_operator::SpannerBase
+SpannerBase	RegionHelper.h	/^    class SpannerBase$/;"	c	class:CCStone::region_operator
+SpannerInner	RegionHelper.h	/^        inline SpannerInner(const region& lhs, const region& rhs)$/;"	f	class:CCStone::region_operator::SpannerInner
+SpannerInner	RegionHelper.h	/^    class SpannerInner : protected SpannerBase $/;"	c	class:CCStone::region_operator
+TEXTURE_2D	ProgramCache.h	/^            TEXTURE_2D              =       0x00000010,$/;"	e	enum:CCStone::ProgramCache::Key::__anon37
+TEXTURE_2D	Texture.h	/^    enum Target { TEXTURE_2D = 0x0DE1, TEXTURE_EXTERNAL = 0x8D65 };$/;"	e	enum:CCStone::Texture::Target
+TEXTURE_EXT	ProgramCache.h	/^            TEXTURE_EXT             =       0x00000008,$/;"	e	enum:CCStone::ProgramCache::Key::__anon37
+TEXTURE_EXTERNAL	Texture.h	/^    enum Target { TEXTURE_2D = 0x0DE1, TEXTURE_EXTERNAL = 0x8D65 };$/;"	e	enum:CCStone::Texture::Target
+TEXTURE_MASK	ProgramCache.h	/^            TEXTURE_MASK            =       0x00000018,$/;"	e	enum:CCStone::ProgramCache::Key::__anon37
+TEXTURE_OFF	ProgramCache.h	/^            TEXTURE_OFF             =       0x00000000,$/;"	e	enum:CCStone::ProgramCache::Key::__anon37
+TMAT_IMPLEMENTATION	TMatHelpers.h	20;"	d
+TMAT_IMPLEMENTATION	mat4.h	25;"	d
+TMatDebug	TMatHelpers.h	/^class TMatDebug {$/;"	c	namespace:CCStone
+TMatProductOperators	TMatHelpers.h	/^class TMatProductOperators {$/;"	c	namespace:CCStone
+TMatSquareFunctions	TMatHelpers.h	/^class TMatSquareFunctions {$/;"	c	namespace:CCStone
+TRANSLATE	Transform.h	/^                TRANSLATE           = 0x1,$/;"	e	enum:CCStone::Transform::type_mask
+TRIANGLES	Mesh.h	/^        TRIANGLES       = 0x0004,       \/\/ GL_TRIANGLES$/;"	e	enum:CCStone::Mesh::Primitive
+TRIANGLE_FAN	Mesh.h	/^        TRIANGLE_FAN    = 0x0006        \/\/ GL_TRIANGLE_FAN$/;"	e	enum:CCStone::Mesh::Primitive
+TRIANGLE_STRIP	Mesh.h	/^        TRIANGLE_STRIP  = 0x0005,       \/\/ GL_TRIANGLE_STRIP$/;"	e	enum:CCStone::Mesh::Primitive
+TVEC_IMPLEMENTATION	TVecHelpers.h	20;"	d
+TVEC_IMPLEMENTATION	vec2.h	23;"	d
+TVecAddOperators	TVecHelpers.h	/^class TVecAddOperators {$/;"	c	namespace:CCStone
+TVecComparisonOperators	TVecHelpers.h	/^class TVecComparisonOperators {$/;"	c	namespace:CCStone
+TVecFunctions	TVecHelpers.h	/^class TVecFunctions {$/;"	c	namespace:CCStone
+TVecProductOperators	TVecHelpers.h	/^class TVecProductOperators {$/;"	c	namespace:CCStone
+TVecUnaryOperators	TVecHelpers.h	/^class TVecUnaryOperators {$/;"	c	namespace:CCStone
+TYPE	RegionHelper.h	/^    typedef typename RECT::value_type TYPE;    $/;"	t	class:CCStone::region_operator
+TYPE	util.h	/^        struct CompileTimeIfElse<false, LHS, RHS> { typedef RHS TYPE; };$/;"	t	struct:CCStone::CompileTimeIfElse
+TYPE	util.h	/^        struct CompileTimeIfElse<true,  LHS, RHS> { typedef LHS TYPE; };$/;"	t	struct:CCStone::CompileTimeIfElse
+Target	Texture.h	/^    enum Target { TEXTURE_2D = 0x0DE1, TEXTURE_EXTERNAL = 0x8D65 };$/;"	g	class:CCStone::Texture
+Texture	Texture.cpp	/^Texture::Texture() :$/;"	f	class:CCStone::Texture
+Texture	Texture.cpp	/^Texture::Texture(Target textureTarget, uint32_t textureName) :$/;"	f	class:CCStone::Texture
+Texture	Texture.h	/^class Texture {$/;"	c	namespace:CCStone
+Transform	Transform.cpp	/^Transform::Transform() {$/;"	f	class:CCStone::Transform
+Transform	Transform.cpp	/^Transform::Transform(const Transform&  other)$/;"	f	class:CCStone::Transform
+Transform	Transform.cpp	/^Transform::Transform(uint32_t orientation) {$/;"	f	class:CCStone::Transform
+Transform	Transform.h	/^class Transform$/;"	c	namespace:CCStone
+UI_MAT4_H	mat4.h	18;"	d
+UI_TMAT_HELPERS_H	TMatHelpers.h	25;"	d
+UI_TVEC_HELPERS_H	TVecHelpers.h	25;"	d
+UI_VEC2_H	vec2.h	18;"	d
+UI_VEC3_H	vec3.h	18;"	d
+UI_VEC4_H	vec4.h	18;"	d
+UNKNOWN	Transform.h	/^                UNKNOWN             = 0x8$/;"	e	enum:CCStone::Transform::type_mask
+UNKNOWN_TYPE	Transform.h	/^    enum { UNKNOWN_TYPE = 0x80000000 };$/;"	e	enum:CCStone::Transform::__anon35
+VALIDATE_REGIONS	Region.cpp	29;"	d	file:
+VALIDATE_WITH_CORECG	Region.cpp	30;"	d	file:
+VertexArray	Mesh.h	/^        VertexArray(float* data, size_t stride) : mData(data), mStride(stride) { }$/;"	f	class:CCStone::Mesh::VertexArray
+VertexArray	Mesh.h	/^    class VertexArray {$/;"	c	class:CCStone::Mesh
+a	vec4.h	/^        struct { T r, g, b, a; };$/;"	m	struct:CCStone::tvec4::__anon18::__anon21
+absIsOne	Transform.cpp	/^bool Transform::absIsOne(float f) {$/;"	f	class:CCStone::Transform
+addRectUnchecked	Region.cpp	/^void Region::addRectUnchecked(int l, int t, int r, int b)$/;"	f	class:CCStone::Region
+advance	Flattenable.h	/^    static void advance(void const*& buffer, size_t& size, size_t offset) {$/;"	f	class:CCStone::FlattenableUtils
+advance	Flattenable.h	/^    static void advance(void*& buffer, size_t& size, size_t offset) {$/;"	f	class:CCStone::FlattenableUtils
+advance	RegionHelper.h	/^        void advance(region& reg, TYPE& aTop, TYPE& aBottom) {$/;"	f	class:CCStone::region_operator::Spanner
+advance	RegionHelper.h	/^        void advance(region& reg, TYPE& left, TYPE& right) {$/;"	f	class:CCStone::region_operator::SpannerInner
+aggregate_traits	TypeHelpers.h	/^struct aggregate_traits {$/;"	s	namespace:CCStone
+align	Flattenable.h	/^    static size_t align(size_t size) {$/;"	f	class:CCStone::FlattenableUtils
+align	Flattenable.h	/^    static size_t align(void const*& buffer) {$/;"	f	class:CCStone::FlattenableUtils
+align	Flattenable.h	/^    static size_t align(void*& buffer) {$/;"	f	class:CCStone::FlattenableUtils
+andSelf	Region.cpp	/^Region& Region::andSelf(const Rect& r) {$/;"	f	class:CCStone::Region
+andSelf	Region.cpp	/^Region& Region::andSelf(const Region& rhs) {$/;"	f	class:CCStone::Region
+andSelf	Region.cpp	/^Region& Region::andSelf(const Region& rhs, int dx, int dy) {$/;"	f	class:CCStone::Region
+android	GLES10RenderEngine.cpp	/^namespace android {$/;"	n	file:
+android	GLES10RenderEngine.h	/^namespace android {$/;"	n
+android	GLES20RenderEngine.h	/^namespace android {$/;"	n
+android	Mesh.cpp	/^namespace android {$/;"	n	file:
+android	Program.h	/^namespace android {$/;"	n
+android	ProgramCache.cpp	/^namespace android {$/;"	n	file:
+asArray	mat4.h	/^    T const* asArray() const { return &mValue[0][0]; }$/;"	f	class:CCStone::tmat44
+asString	TMatHelpers.h	/^    std::string asString() const {$/;"	f	class:CCStone::TMatDebug
+asString	TMatHelpers.h	/^std::string asString(const MATRIX& m) {$/;"	f	namespace:CCStone::matrix
+attribute	RenderEngine.cpp	/^        EGLint attribute;$/;"	m	class:CCStone::EGLAttributeVector::Adder	file:
+b	vec3.h	/^        struct { T r, g, b; };$/;"	m	struct:CCStone::tvec3::__anon13::__anon16
+b	vec4.h	/^        struct { T r, g, b, a; };$/;"	m	struct:CCStone::tvec4::__anon18::__anon21
+begin	Region.cpp	/^Region::const_iterator Region::begin() const {$/;"	f	class:CCStone::Region
+bindImageAsFramebuffer	GLES11RenderEngine.cpp	/^void GLES11RenderEngine::bindImageAsFramebuffer(EGLImageKHR image,$/;"	f	class:CCStone::GLES11RenderEngine
+bindImageAsFramebuffer	GLES20RenderEngine.cpp	/^void GLES20RenderEngine::bindImageAsFramebuffer(EGLImageKHR image,$/;"	f	class:CCStone::GLES20RenderEngine
+boolean_operation	Region.cpp	/^void Region::boolean_operation(int op, Region& dst,$/;"	f	class:CCStone::Region
+bounds	Region.cpp	/^    Rect bounds;$/;"	m	class:CCStone::Region::rasterizer	file:
+bounds	Region.h	/^    inline  Rect        bounds() const      { return getBounds(); }$/;"	f	class:CCStone::Region
+buildShader	Program.cpp	/^GLuint Program::buildShader(const char* source, GLenum type) {$/;"	f	class:CCStone::Program
+checkErrors	RenderEngine.cpp	/^void RenderEngine::checkErrors() const {$/;"	f	class:CCStone::RenderEngine
+chooseEglConfig	RenderEngine.cpp	/^EGLConfig RenderEngine::chooseEglConfig(EGLDisplay display, int format) {$/;"	f	class:CCStone::RenderEngine
+clear	Rect.h	/^    inline void clear() {$/;"	f	class:CCStone::Rect
+clear	Region.cpp	/^void Region::clear()$/;"	f	class:CCStone::Region
+clearWithColor	RenderEngine.cpp	/^void RenderEngine::clearWithColor(float red, float green, float blue, float alpha) {$/;"	f	class:CCStone::RenderEngine
+col_size	mat4.h	/^    static inline size_t col_size() { return COL_SIZE; }$/;"	f	class:CCStone::tmat44
+col_type	mat4.h	/^    typedef tvec4<T> col_type;$/;"	t	class:CCStone::tmat44
+colorTransform	GLES20RenderEngine.h	/^        mat4 colorTransform;$/;"	m	struct:android::GLES20RenderEngine::Group
+compare_type	TypeHelpers.h	/^int compare_type(const TYPE& lhs, const TYPE& rhs) {$/;"	f	namespace:CCStone
+computeKey	ProgramCache.cpp	/^ProgramCache::Key ProgramCache::computeKey(const Description& description) {$/;"	f	class:android::ProgramCache
+const_iterator	Region.h	/^    typedef Rect const* const_iterator;$/;"	t	class:CCStone::Region
+const_reference	mat4.h	/^    typedef T const& const_reference;$/;"	t	class:CCStone::tmat44
+const_reference	vec2.h	/^    typedef T const& const_reference;$/;"	t	class:CCStone::tvec2
+const_reference	vec3.h	/^    typedef T const& const_reference;$/;"	t	class:CCStone::tvec3
+const_reference	vec4.h	/^    typedef T const& const_reference;$/;"	t	class:CCStone::tvec4
+construct_type	TypeHelpers.h	/^void construct_type(TYPE* p, size_t n) {$/;"	f	namespace:CCStone
+contains	Region.cpp	/^bool Region::contains(const Point& point) const {$/;"	f	class:CCStone::Region
+contains	Region.cpp	/^bool Region::contains(int x, int y) const {$/;"	f	class:CCStone::Region
+copy_type	TypeHelpers.h	/^void copy_type(TYPE* d, const TYPE* s, size_t n) {$/;"	f	namespace:CCStone
+count	RegionHelper.h	/^        size_t count;$/;"	m	struct:CCStone::region_operator::region
+create	RenderEngine.cpp	/^RenderEngine* RenderEngine::create(EGLDisplay display, int hwcFormat) {$/;"	f	class:CCStone::RenderEngine
+createTJunctionFreeRegion	Region.cpp	/^Region Region::createTJunctionFreeRegion(const Region& r) {$/;"	f	class:CCStone::Region
+cross	vec3.h	/^    tvec3 __attribute__((pure)) cross(const tvec3& u, const tvec3<RT>& v) {$/;"	f	class:CCStone::tvec3
+cur	Region.cpp	/^    Rect* cur;$/;"	m	class:CCStone::Region::rasterizer	file:
+dedent	ProgramCache.cpp	/^Formatter& dedent(Formatter& f) {$/;"	f	namespace:android
+deleteTextures	RenderEngine.cpp	/^void RenderEngine::deleteTextures(size_t count, uint32_t const* names) {$/;"	f	class:CCStone::RenderEngine
+destroy_type	TypeHelpers.h	/^void destroy_type(TYPE* p, size_t n) {$/;"	f	namespace:CCStone
+diag	TMatHelpers.h	/^typename MATRIX::col_type PURE diag(const MATRIX& m) {$/;"	f	namespace:CCStone::matrix
+diag	mat4.h	/^typename tmat44<T>::col_type PURE diag(const tmat44<T>& m) {$/;"	f	namespace:CCStone
+direction_LTR	Region.cpp	/^    direction_LTR,$/;"	e	enum:CCStone::__anon24	file:
+direction_RTL	Region.cpp	/^    direction_RTL$/;"	e	enum:CCStone::__anon24	file:
+disableBlending	GLES11RenderEngine.cpp	/^void GLES11RenderEngine::disableBlending() {$/;"	f	class:CCStone::GLES11RenderEngine
+disableBlending	GLES20RenderEngine.cpp	/^void GLES20RenderEngine::disableBlending() {$/;"	f	class:CCStone::GLES20RenderEngine
+disableScissor	RenderEngine.cpp	/^void RenderEngine::disableScissor() {$/;"	f	class:CCStone::RenderEngine
+disableTexture	Description.cpp	/^void Description::disableTexture() {$/;"	f	class:CCStone::Description
+disableTexturing	GLES11RenderEngine.cpp	/^void GLES11RenderEngine::disableTexturing() {$/;"	f	class:CCStone::GLES11RenderEngine
+disableTexturing	GLES20RenderEngine.cpp	/^void GLES20RenderEngine::disableTexturing() {$/;"	f	class:CCStone::GLES20RenderEngine
+distance	TVecHelpers.h	/^    T PURE distance(const BASE<T>& lv, const BASE<RT>& rv) {$/;"	f	class:CCStone::TVecFunctions
+dot	TVecHelpers.h	/^    T PURE dot(const BASE<T>& lv, const BASE<RT>& rv) {$/;"	f	class:CCStone::TVecFunctions
+drawMesh	GLES11RenderEngine.cpp	/^void GLES11RenderEngine::drawMesh(const Mesh& mesh) {$/;"	f	class:CCStone::GLES11RenderEngine
+drawMesh	GLES20RenderEngine.cpp	/^void GLES20RenderEngine::drawMesh(const Mesh& mesh) {$/;"	f	class:CCStone::GLES20RenderEngine
+dump	GLES11RenderEngine.cpp	/^void GLES11RenderEngine::dump(std::string& result) {$/;"	f	class:CCStone::GLES11RenderEngine
+dump	GLES20RenderEngine.cpp	/^void GLES20RenderEngine::dump(std::string& result) {$/;"	f	class:CCStone::GLES20RenderEngine
+dump	Region.cpp	/^void Region::dump(const char* what, uint32_t flags) const$/;"	f	class:CCStone::Region
+dump	Region.cpp	/^void Region::dump(std::string& out, const char* what, uint32_t flags) const$/;"	f	class:CCStone::Region
+dump	RenderEngine.cpp	/^void RenderEngine::dump(std::string& result) {$/;"	f	class:CCStone::RenderEngine
+dump	Transform.cpp	/^void Transform::dump(const char* name) const$/;"	f	class:CCStone::Transform
+dumpShader	Program.cpp	/^String8& Program::dumpShader(String8& result, GLenum \/*type*\/) {$/;"	f	class:CCStone::Program
+dx	RegionHelper.h	/^        TYPE dx;$/;"	m	struct:CCStone::region_operator::region
+dy	RegionHelper.h	/^        TYPE dy;$/;"	m	struct:CCStone::region_operator::region
+end	Region.cpp	/^Region::const_iterator Region::end() const {$/;"	f	class:CCStone::Region
+fbo	GLES20RenderEngine.h	/^        GLuint fbo;$/;"	m	struct:android::GLES20RenderEngine::Group
+fillRegionWithColor	RenderEngine.cpp	/^void RenderEngine::fillRegionWithColor(const Region& region, uint32_t height,$/;"	f	class:CCStone::RenderEngine
+findExtension	RenderEngine.cpp	/^static bool findExtension(const char* exts, const char* name) {$/;"	f	namespace:CCStone
+flatten	Flattenable.h	/^    inline status_t flatten(void* buffer, size_t size) const {$/;"	f	class:CCStone::LightFlattenablePod
+flatten	Flattenable.h	/^inline status_t Flattenable<T>::flatten($/;"	f	class:CCStone::Flattenable
+flatten	Flattenable.h	/^inline status_t LightFlattenable<T>::flatten(void* buffer, size_t size) const {$/;"	f	class:CCStone::LightFlattenable
+flatten	Region.cpp	/^status_t Region::flatten(void* buffer, size_t size) const {$/;"	f	class:CCStone::Region
+flush	RenderEngine.cpp	/^void RenderEngine::flush() {$/;"	f	class:CCStone::RenderEngine
+flushSpan	Region.cpp	/^    void flushSpan() {$/;"	f	class:CCStone::Region::rasterizer	file:
+frustum	mat4.h	/^tmat44<T> tmat44<T>::frustum(T left, T right, T bottom, T top, T near, T far) {$/;"	f	class:CCStone::tmat44
+g	vec2.h	/^        struct { T r, g; };$/;"	m	struct:CCStone::tvec2::__anon29::__anon32
+g	vec3.h	/^        struct { T r, g, b; };$/;"	m	struct:CCStone::tvec3::__anon13::__anon16
+g	vec4.h	/^        struct { T r, g, b, a; };$/;"	m	struct:CCStone::tvec4::__anon18::__anon21
+genTextures	RenderEngine.cpp	/^void RenderEngine::genTextures(size_t count, uint32_t* names) {$/;"	f	class:CCStone::RenderEngine
+generateFragmentShader	ProgramCache.cpp	/^String8 ProgramCache::generateFragmentShader(const Key& needs) {$/;"	f	class:android::ProgramCache
+generateProgram	ProgramCache.cpp	/^Program* ProgramCache::generateProgram(const Key& needs) {$/;"	f	class:android::ProgramCache
+generateVertexShader	ProgramCache.cpp	/^String8 ProgramCache::generateVertexShader(const Key& needs) {$/;"	f	class:android::ProgramCache
+getArray	Region.cpp	/^Rect const* Region::getArray(size_t* count) const {$/;"	f	class:CCStone::Region
+getAttrib	Program.cpp	/^GLuint Program::getAttrib(const char* name) const {$/;"	f	class:CCStone::Program
+getBounds	Rect.h	/^    inline Rect getBounds() const {$/;"	f	class:CCStone::Rect
+getBounds	Region.h	/^    inline  Rect        getBounds() const   { return mStorage[mStorage.size() - 1]; }$/;"	f	class:CCStone::Region
+getByteStride	Mesh.cpp	/^size_t Mesh::getByteStride() const {$/;"	f	class:android::Mesh
+getColorMatrix	Description.cpp	/^const mat4& Description::getColorMatrix() const {$/;"	f	class:CCStone::Description
+getEGLConfig	RenderEngine.cpp	/^EGLContext RenderEngine::getEGLConfig() const {$/;"	f	class:CCStone::RenderEngine
+getEGLContext	RenderEngine.cpp	/^EGLContext RenderEngine::getEGLContext() const {$/;"	f	class:CCStone::RenderEngine
+getExtension	GLExtensions.cpp	/^char const* GLExtensions::getExtension() const {$/;"	f	class:CCStone::GLExtensions
+getFdCount	Flattenable.h	/^inline size_t Flattenable<T>::getFdCount() const {$/;"	f	class:CCStone::Flattenable
+getFiltering	Texture.cpp	/^bool Texture::getFiltering() const {$/;"	f	class:CCStone::Texture
+getFlattenedSize	Flattenable.h	/^    inline size_t getFlattenedSize() const {$/;"	f	class:CCStone::LightFlattenablePod
+getFlattenedSize	Flattenable.h	/^inline size_t Flattenable<T>::getFlattenedSize() const {$/;"	f	class:CCStone::Flattenable
+getFlattenedSize	Flattenable.h	/^inline size_t LightFlattenable<T>::getFlattenedSize() const {$/;"	f	class:CCStone::LightFlattenable
+getFlattenedSize	Region.cpp	/^size_t Region::getFlattenedSize() const {$/;"	f	class:CCStone::Region
+getHeight	Rect.h	/^    inline int32_t getHeight() const {$/;"	f	class:CCStone::Rect
+getHeight	Texture.cpp	/^size_t Texture::getHeight() const {$/;"	f	class:CCStone::Texture
+getKey	TypeHelpers.h	/^    inline const KEY& getKey() const {$/;"	f	struct:CCStone::key_value_pair_t
+getMatrix	Texture.cpp	/^const mat4& Texture::getMatrix() const {$/;"	f	class:CCStone::Texture
+getMaxTextureSize	GLES11RenderEngine.cpp	/^size_t GLES11RenderEngine::getMaxTextureSize() const {$/;"	f	class:CCStone::GLES11RenderEngine
+getMaxTextureSize	GLES20RenderEngine.cpp	/^size_t GLES20RenderEngine::getMaxTextureSize() const {$/;"	f	class:CCStone::GLES20RenderEngine
+getMaxViewportDims	GLES11RenderEngine.cpp	/^size_t GLES11RenderEngine::getMaxViewportDims() const {$/;"	f	class:CCStone::GLES11RenderEngine
+getMaxViewportDims	GLES20RenderEngine.cpp	/^size_t GLES20RenderEngine::getMaxViewportDims() const {$/;"	f	class:CCStone::GLES20RenderEngine
+getOrientation	Transform.cpp	/^uint32_t Transform::getOrientation() const$/;"	f	class:CCStone::Transform
+getPositionArray	Mesh.h	/^    VertexArray<TYPE> getPositionArray() { return VertexArray<TYPE>(getPositions(), mStride); }$/;"	f	class:CCStone::Mesh
+getPositions	Mesh.cpp	/^float const* Mesh::getPositions() const {$/;"	f	class:android::Mesh
+getPositions	Mesh.cpp	/^float* Mesh::getPositions() {$/;"	f	class:android::Mesh
+getPrimitive	Mesh.cpp	/^Mesh::Primitive Mesh::getPrimitive() const {$/;"	f	class:android::Mesh
+getRenderer	GLExtensions.cpp	/^char const* GLExtensions::getRenderer() const {$/;"	f	class:CCStone::GLExtensions
+getSharedBuffer	Region.cpp	/^SharedBuffer const* Region::getSharedBuffer(size_t* count) const {$/;"	f	class:CCStone::Region
+getStatus	RenderEngine.cpp	/^status_t RenderEngine::BindImageAsFramebuffer::getStatus() const {$/;"	f	class:CCStone::RenderEngine::BindImageAsFramebuffer
+getStride	Mesh.cpp	/^size_t Mesh::getStride() const {$/;"	f	class:android::Mesh
+getString	ProgramCache.cpp	/^    String8 getString() const {$/;"	f	class:android::Formatter
+getTexCoordArray	Mesh.h	/^    VertexArray<TYPE> getTexCoordArray() { return VertexArray<TYPE>(getTexCoords(), mStride); }$/;"	f	class:CCStone::Mesh
+getTexCoords	Mesh.cpp	/^float const* Mesh::getTexCoords() const {$/;"	f	class:android::Mesh
+getTexCoords	Mesh.cpp	/^float* Mesh::getTexCoords() {$/;"	f	class:android::Mesh
+getTexCoordsSize	Mesh.cpp	/^size_t Mesh::getTexCoordsSize() const {$/;"	f	class:android::Mesh
+getTextureName	Texture.cpp	/^uint32_t Texture::getTextureName() const {$/;"	f	class:CCStone::Texture
+getTextureTarget	ProgramCache.h	/^        inline int getTextureTarget() const {$/;"	f	class:CCStone::ProgramCache::Key
+getTextureTarget	Texture.cpp	/^uint32_t Texture::getTextureTarget() const {$/;"	f	class:CCStone::Texture
+getType	Transform.cpp	/^uint32_t Transform::getType() const {$/;"	f	class:CCStone::Transform
+getUniform	Program.cpp	/^GLint Program::getUniform(const char* name) const {$/;"	f	class:CCStone::Program
+getValue	TypeHelpers.h	/^    inline const VALUE& getValue() const {$/;"	f	struct:CCStone::key_value_pair_t
+getVendor	GLExtensions.cpp	/^char const* GLExtensions::getVendor() const {$/;"	f	class:CCStone::GLExtensions
+getVersion	GLExtensions.cpp	/^char const* GLExtensions::getVersion() const {$/;"	f	class:CCStone::GLExtensions
+getVertexCount	Mesh.cpp	/^size_t Mesh::getVertexCount() const {$/;"	f	class:android::Mesh
+getVertexSize	Mesh.cpp	/^size_t Mesh::getVertexSize() const {$/;"	f	class:android::Mesh
+getWidth	Rect.h	/^    inline int32_t getWidth() const {$/;"	f	class:CCStone::Rect
+getWidth	Texture.cpp	/^size_t Texture::getWidth() const {$/;"	f	class:CCStone::Texture
+hasColorMatrix	ProgramCache.h	/^        inline bool hasColorMatrix() const {$/;"	f	class:CCStone::ProgramCache::Key
+hasExtension	GLExtensions.cpp	/^bool GLExtensions::hasExtension(char const* extension) const$/;"	f	class:CCStone::GLExtensions
+hasPlaneAlpha	ProgramCache.h	/^        inline bool hasPlaneAlpha() const {$/;"	f	class:CCStone::ProgramCache::Key
+has_trivial_copy	TypeHelpers.h	/^        has_trivial_copy    = $/;"	e	enum:CCStone::aggregate_traits::__anon8
+has_trivial_copy	TypeHelpers.h	/^        has_trivial_copy    = is_pointer || trait_trivial_copy<TYPE>::value,$/;"	e	enum:CCStone::traits::__anon7
+has_trivial_ctor	TypeHelpers.h	/^        has_trivial_ctor    = $/;"	e	enum:CCStone::aggregate_traits::__anon8
+has_trivial_ctor	TypeHelpers.h	/^        has_trivial_ctor    = is_pointer || trait_trivial_ctor<TYPE>::value,$/;"	e	enum:CCStone::traits::__anon7
+has_trivial_dtor	TypeHelpers.h	/^        has_trivial_dtor    = $/;"	e	enum:CCStone::aggregate_traits::__anon8
+has_trivial_dtor	TypeHelpers.h	/^        has_trivial_dtor    = is_pointer || trait_trivial_dtor<TYPE>::value,$/;"	e	enum:CCStone::traits::__anon7
+has_trivial_move	TypeHelpers.h	/^        has_trivial_move    = $/;"	e	enum:CCStone::aggregate_traits::__anon8
+has_trivial_move	TypeHelpers.h	/^        has_trivial_move    = is_pointer || trait_trivial_move<TYPE>::value$/;"	e	enum:CCStone::traits::__anon7
+hash_t	TypeHelpers.h	/^typedef uint32_t hash_t;$/;"	t	namespace:CCStone
+hash_type	TypeHelpers.h	/^template <typename T> inline hash_t hash_type(T* const & value) {$/;"	f	namespace:CCStone
+haveFramebufferObject	GLExtensions.h	/^    inline bool haveFramebufferObject() const {$/;"	f	class:CCStone::GLExtensions
+head	Region.cpp	/^    Rect* head;$/;"	m	class:CCStone::Region::rasterizer	file:
+height	GLES20RenderEngine.h	/^        GLuint height;$/;"	m	struct:android::GLES20RenderEngine::Group
+height	Rect.h	/^    inline int32_t height() const { return getHeight(); }$/;"	f	class:CCStone::Rect
+indent	ProgramCache.cpp	/^Formatter& indent(Formatter& f) {$/;"	f	namespace:android
+init	Texture.cpp	/^void Texture::init(Target textureTarget, uint32_t textureName) {$/;"	f	class:CCStone::Texture
+initWithGLStrings	GLExtensions.cpp	/^void GLExtensions::initWithGLStrings($/;"	f	class:CCStone::GLExtensions
+intersect	Rect.cpp	/^bool Rect::intersect(const Rect& with, Rect* result) const {$/;"	f	class:CCStone::Rect
+intersect	Region.cpp	/^const Region Region::intersect(const Rect& rhs) const {$/;"	f	class:CCStone::Region
+intersect	Region.cpp	/^const Region Region::intersect(const Region& rhs) const {$/;"	f	class:CCStone::Region
+intersect	Region.cpp	/^const Region Region::intersect(const Region& rhs, int dx, int dy) const {$/;"	f	class:CCStone::Region
+inverse	TMatHelpers.h	/^    friend BASE<T> PURE inverse(const BASE<T>& m)   { return matrix::inverse(m); }$/;"	f	class:CCStone::TMatSquareFunctions
+inverse	TMatHelpers.h	/^MATRIX PURE inverse(const MATRIX& src) {$/;"	f	namespace:CCStone::matrix
+inverse	Transform.cpp	/^Transform Transform::inverse() const {$/;"	f	class:CCStone::Transform
+isDone	RegionHelper.h	/^        inline bool isDone() const {$/;"	f	class:CCStone::region_operator::Spanner
+isDone	RegionHelper.h	/^        inline bool isDone() const {$/;"	f	class:CCStone::region_operator::SpannerInner
+isEmpty	Rect.h	/^    inline bool isEmpty() const {$/;"	f	class:CCStone::Rect
+isEmpty	Region.h	/^    inline  bool        isEmpty() const     { return getBounds().isEmpty(); }$/;"	f	class:CCStone::Region
+isFixedSize	Flattenable.h	/^    inline bool isFixedSize() const {$/;"	f	class:CCStone::LightFlattenablePod
+isFixedSize	Flattenable.h	/^inline bool LightFlattenable<T>::isFixedSize() const {$/;"	f	class:CCStone::LightFlattenable
+isFixedSize	Region.h	/^    inline  bool        isFixedSize() const { return false; }$/;"	f	class:CCStone::Region
+isOpaque	ProgramCache.h	/^        inline bool isOpaque() const {$/;"	f	class:CCStone::ProgramCache::Key
+isOrigin	Point.h	/^    inline bool isOrigin() const {$/;"	f	class:CCStone::Point
+isPremultiplied	ProgramCache.h	/^        inline bool isPremultiplied() const {$/;"	f	class:CCStone::ProgramCache::Key
+isRect	Region.h	/^    inline  bool        isRect() const      { return mStorage.size() == 1; }$/;"	f	class:CCStone::Region
+isTexturing	ProgramCache.h	/^        inline bool isTexturing() const {$/;"	f	class:CCStone::ProgramCache::Key
+isTriviallyEqual	Region.cpp	/^bool Region::isTriviallyEqual(const Region& region) const {$/;"	f	class:CCStone::Region
+isValid	Program.cpp	/^bool Program::isValid() const {$/;"	f	class:CCStone::Program
+isValid	Rect.h	/^    inline bool isValid() const {$/;"	f	class:CCStone::Rect
+isZero	Transform.cpp	/^bool Transform::isZero(float f) {$/;"	f	class:CCStone::Transform
+is_pointer	TypeHelpers.h	/^        is_pointer          = false,$/;"	e	enum:CCStone::aggregate_traits::__anon8
+is_pointer	TypeHelpers.h	/^        is_pointer          = trait_pointer<TYPE>::value,$/;"	e	enum:CCStone::traits::__anon7
+key	TypeHelpers.h	/^    KEY     key;$/;"	m	struct:CCStone::key_value_pair_t
+key_t	ProgramCache.h	/^        typedef uint32_t key_t;$/;"	t	class:CCStone::ProgramCache::Key
+key_t	TypeHelpers.h	/^    typedef KEY key_t;$/;"	t	struct:CCStone::key_value_pair_t
+key_value_pair_t	TypeHelpers.h	/^    key_value_pair_t() { }$/;"	f	struct:CCStone::key_value_pair_t
+key_value_pair_t	TypeHelpers.h	/^    key_value_pair_t(const KEY& k) : key(k) { }$/;"	f	struct:CCStone::key_value_pair_t
+key_value_pair_t	TypeHelpers.h	/^    key_value_pair_t(const KEY& k, const VALUE& v) : key(k), value(v)  { }$/;"	f	struct:CCStone::key_value_pair_t
+key_value_pair_t	TypeHelpers.h	/^    key_value_pair_t(const key_value_pair_t& o) : key(o.key), value(o.value) { }$/;"	f	struct:CCStone::key_value_pair_t
+key_value_pair_t	TypeHelpers.h	/^struct key_value_pair_t {$/;"	s	namespace:CCStone
+leftBottom	Rect.h	/^    Point leftBottom() const {$/;"	f	class:CCStone::Rect
+leftTop	Rect.h	/^    Point leftTop() const {$/;"	f	class:CCStone::Rect
+length	TVecHelpers.h	/^    T PURE length(const BASE<T>& lv) {$/;"	f	class:CCStone::TVecFunctions
+lhs	RegionHelper.h	/^        region lhs;$/;"	m	class:CCStone::region_operator::Spanner
+lhs	RegionHelper.h	/^        region lhs;$/;"	m	class:CCStone::region_operator::SpannerInner
+lhs_after_rhs	RegionHelper.h	/^            lhs_after_rhs    = 1,$/;"	e	enum:CCStone::region_operator::SpannerBase::__anon26
+lhs_before_rhs	RegionHelper.h	/^            lhs_before_rhs   = 0,$/;"	e	enum:CCStone::region_operator::SpannerBase::__anon26
+lhs_coincide_rhs	RegionHelper.h	/^            lhs_coincide_rhs = 2$/;"	e	enum:CCStone::region_operator::SpannerBase::__anon26
+lhs_head	RegionHelper.h	/^        TYPE lhs_head;$/;"	m	class:CCStone::region_operator::SpannerBase
+lhs_tail	RegionHelper.h	/^        TYPE lhs_tail;$/;"	m	class:CCStone::region_operator::SpannerBase
+lookAt	mat4.h	/^tmat44<T> tmat44<T>::lookAt(const tvec3<A>& eye, const tvec3<B>& center, const tvec3<C>& up) {$/;"	f	class:CCStone::tmat44
+mAlphaPlaneLoc	Program.h	/^    GLint mAlphaPlaneLoc;$/;"	m	class:android::Program
+mCache	ProgramCache.h	/^    std::map<Key, Program*> mCache;$/;"	m	class:CCStone::ProgramCache
+mColor	Description.h	/^    GLclampf mColor[4];$/;"	m	class:CCStone::Description
+mColorLoc	Program.h	/^    GLint mColorLoc;$/;"	m	class:android::Program
+mColorMatrix	Description.h	/^    mat4 mColorMatrix;$/;"	m	class:CCStone::Description
+mColorMatrixEnabled	Description.h	/^    bool mColorMatrixEnabled;$/;"	m	class:CCStone::Description
+mColorMatrixLoc	Program.h	/^    GLint mColorMatrixLoc;$/;"	m	class:android::Program
+mData	Mesh.h	/^        float* mData;$/;"	m	class:CCStone::Mesh::VertexArray
+mEGLConfig	RenderEngine.h	/^    EGLConfig mEGLConfig;$/;"	m	class:CCStone::RenderEngine
+mEGLContext	RenderEngine.h	/^    EGLContext mEGLContext;$/;"	m	class:CCStone::RenderEngine
+mEngine	RenderEngine.h	/^        RenderEngine& mEngine;$/;"	m	class:CCStone::RenderEngine::BindImageAsFramebuffer
+mExtensionList	GLExtensions.h	/^    std::vect<std::string> mExtensionList;$/;"	m	class:CCStone::GLExtensions
+mExtensions	GLExtensions.h	/^    std::string mExtensions;$/;"	m	class:CCStone::GLExtensions
+mFbName	RenderEngine.h	/^        uint32_t mTexName, mFbName;$/;"	m	class:CCStone::RenderEngine::BindImageAsFramebuffer
+mFiltering	Texture.h	/^    bool mFiltering;$/;"	m	class:CCStone::Texture
+mFragmentShader	Program.h	/^    GLuint mFragmentShader;$/;"	m	class:android::Program
+mGroupStack	GLES20RenderEngine.h	/^    Vector<Group> mGroupStack;$/;"	m	class:android::GLES20RenderEngine
+mHeight	Texture.h	/^    size_t mHeight;$/;"	m	class:CCStone::Texture
+mIndent	ProgramCache.cpp	/^    int mIndent;$/;"	m	class:android::Formatter	file:
+mInitialized	Program.h	/^    bool mInitialized;$/;"	m	class:android::Program
+mKey	ProgramCache.h	/^        key_t mKey;$/;"	m	class:CCStone::ProgramCache::Key
+mList	RenderEngine.cpp	/^    KeyedVector<Attribute, EGLint> mList;$/;"	m	class:CCStone::EGLAttributeVector	file:
+mMatrix	Transform.h	/^    mat33               mMatrix;$/;"	m	class:CCStone::Transform
+mMaxTextureSize	GLES11RenderEngine.h	/^    GLint mMaxTextureSize;$/;"	m	class:CCStone::GLES11RenderEngine
+mMaxTextureSize	GLES20RenderEngine.h	/^    GLint mMaxTextureSize;$/;"	m	class:android::GLES20RenderEngine
+mMaxViewportDims	GLES11RenderEngine.h	/^    GLint mMaxViewportDims[2];$/;"	m	class:CCStone::GLES11RenderEngine
+mMaxViewportDims	GLES20RenderEngine.h	/^    GLint mMaxViewportDims[2];$/;"	m	class:android::GLES20RenderEngine
+mOpaque	Description.h	/^    bool mOpaque;$/;"	m	class:CCStone::Description
+mPlaneAlpha	Description.h	/^    GLclampf mPlaneAlpha;$/;"	m	class:CCStone::Description
+mPremultipliedAlpha	Description.h	/^    bool mPremultipliedAlpha;$/;"	m	class:CCStone::Description
+mPrimitive	Mesh.h	/^    Primitive mPrimitive;$/;"	m	class:CCStone::Mesh
+mProgram	Program.h	/^    GLuint mProgram;$/;"	m	class:android::Program
+mProjectionMatrix	Description.h	/^    mat4 mProjectionMatrix;$/;"	m	class:CCStone::Description
+mProjectionMatrixLoc	Program.h	/^    GLint mProjectionMatrixLoc;$/;"	m	class:android::Program
+mProtectedTexName	GLES11RenderEngine.h	/^    GLuint mProtectedTexName;$/;"	m	class:CCStone::GLES11RenderEngine
+mProtectedTexName	GLES20RenderEngine.h	/^    GLuint mProtectedTexName;$/;"	m	class:android::GLES20RenderEngine
+mRenderer	GLExtensions.h	/^    std::string mRenderer;$/;"	m	class:CCStone::GLExtensions
+mSamplerLoc	Program.h	/^    GLint mSamplerLoc;$/;"	m	class:android::Program
+mState	GLES20RenderEngine.h	/^    Description mState;$/;"	m	class:android::GLES20RenderEngine
+mStatus	RenderEngine.h	/^        uint32_t mStatus;$/;"	m	class:CCStone::RenderEngine::BindImageAsFramebuffer
+mStorage	Region.h	/^    std::vector<Rect> mStorage;$/;"	m	class:CCStone::Region
+mStride	Mesh.h	/^        size_t mStride;$/;"	m	class:CCStone::Mesh::VertexArray
+mStride	Mesh.h	/^    size_t mStride;$/;"	m	class:CCStone::Mesh
+mString	ProgramCache.cpp	/^    String8 mString;$/;"	m	class:android::Formatter	file:
+mTexCoordsSize	Mesh.h	/^    size_t mTexCoordsSize;$/;"	m	class:CCStone::Mesh
+mTexName	RenderEngine.h	/^        uint32_t mTexName, mFbName;$/;"	m	class:CCStone::RenderEngine::BindImageAsFramebuffer
+mTexture	Description.h	/^    Texture mTexture;$/;"	m	class:CCStone::Description
+mTextureEnabled	Description.h	/^    bool mTextureEnabled;$/;"	m	class:CCStone::Description
+mTextureMatrix	Texture.h	/^    mat4 mTextureMatrix;$/;"	m	class:CCStone::Texture
+mTextureMatrixLoc	Program.h	/^    GLint mTextureMatrixLoc;$/;"	m	class:android::Program
+mTextureName	Texture.h	/^    uint32_t mTextureName;$/;"	m	class:CCStone::Texture
+mTextureTarget	Texture.h	/^    uint32_t mTextureTarget;$/;"	m	class:CCStone::Texture
+mType	Transform.h	/^    mutable uint32_t    mType;$/;"	m	class:CCStone::Transform
+mUniformsDirty	Description.h	/^    bool mUniformsDirty;$/;"	m	class:CCStone::Description
+mValue	mat4.h	/^    col_type mValue[ROW_SIZE];$/;"	m	class:CCStone::tmat44
+mVendor	GLExtensions.h	/^    std::string mVendor;$/;"	m	class:CCStone::GLExtensions
+mVersion	GLExtensions.h	/^    std::string mVersion;$/;"	m	class:CCStone::GLExtensions
+mVertexCount	Mesh.h	/^    size_t mVertexCount;$/;"	m	class:CCStone::Mesh
+mVertexShader	Program.h	/^    GLuint mVertexShader;$/;"	m	class:android::Program
+mVertexSize	Mesh.h	/^    size_t mVertexSize;$/;"	m	class:CCStone::Mesh
+mVertices	Mesh.h	/^    float* mVertices;$/;"	m	class:CCStone::Mesh
+mVpHeight	GLES20RenderEngine.h	/^    GLuint mVpHeight;$/;"	m	class:android::GLES20RenderEngine
+mVpWidth	GLES20RenderEngine.h	/^    GLuint mVpWidth;$/;"	m	class:android::GLES20RenderEngine
+mWidth	Texture.h	/^    size_t mWidth;$/;"	m	class:CCStone::Texture
+makeBounds	Transform.cpp	/^Rect Transform::makeBounds(int w, int h) const$/;"	f	class:CCStone::Transform
+makeBoundsSelf	Region.cpp	/^Region& Region::makeBoundsSelf()$/;"	f	class:CCStone::Region
+makeInvalid	Rect.cpp	/^void Rect::makeInvalid() {$/;"	f	class:CCStone::Rect
+mat33	Transform.h	/^    struct mat33 {$/;"	s	class:CCStone::Transform
+mat4	mat4.h	/^typedef tmat44<float> mat4;$/;"	t	namespace:CCStone
+matrix	TMatHelpers.h	/^namespace matrix {$/;"	n	namespace:CCStone
+max	Rect.cpp	/^static inline int32_t max(int32_t a, int32_t b) {$/;"	f	namespace:CCStone
+max	Region.cpp	/^    static inline T max(T rhs, T lhs) { return rhs > lhs ? rhs : lhs; }$/;"	f	class:CCStone::Region::rasterizer	file:
+max_value	RegionHelper.h	/^    static const TYPE max_value = 0x7FFFFFF;$/;"	m	class:CCStone::region_operator
+merge	Region.cpp	/^const Region Region::merge(const Rect& rhs) const {$/;"	f	class:CCStone::Region
+merge	Region.cpp	/^const Region Region::merge(const Region& rhs) const {$/;"	f	class:CCStone::Region
+merge	Region.cpp	/^const Region Region::merge(const Region& rhs, int dx, int dy) const {$/;"	f	class:CCStone::Region
+mergeExclusive	Region.cpp	/^const Region Region::mergeExclusive(const Rect& rhs) const {$/;"	f	class:CCStone::Region
+mergeExclusive	Region.cpp	/^const Region Region::mergeExclusive(const Region& rhs) const {$/;"	f	class:CCStone::Region
+mergeExclusive	Region.cpp	/^const Region Region::mergeExclusive(const Region& rhs, int dx, int dy) const {$/;"	f	class:CCStone::Region
+min	Rect.cpp	/^static inline int32_t min(int32_t a, int32_t b) {$/;"	f	namespace:CCStone
+min	Region.cpp	/^    static inline T min(T rhs, T lhs) { return rhs < lhs ? rhs : lhs; }$/;"	f	class:CCStone::Region::rasterizer	file:
+move_backward_type	TypeHelpers.h	/^void move_backward_type(TYPE* d, const TYPE* s, size_t n = 1) {$/;"	f	namespace:CCStone
+move_forward_type	TypeHelpers.h	/^void move_forward_type(TYPE* d, const TYPE* s, size_t n = 1) {$/;"	f	namespace:CCStone
+multiply	TMatHelpers.h	/^MATRIX_R PURE multiply(const MATRIX_A& lhs, const MATRIX_B& rhs) {$/;"	f	namespace:CCStone::matrix
+next	RegionHelper.h	/^        inline int next(TYPE& head, TYPE& tail,$/;"	f	class:CCStone::region_operator::SpannerBase
+next	RegionHelper.h	/^        inline int next(TYPE& left, TYPE& right) $/;"	f	class:CCStone::region_operator::SpannerInner
+next	RegionHelper.h	/^        inline int next(TYPE& top, TYPE& bottom) $/;"	f	class:CCStone::region_operator::Spanner
+no_init	mat4.h	/^    enum no_init { NO_INIT };$/;"	g	class:CCStone::tmat44
+no_init	vec2.h	/^    enum no_init { NO_INIT };$/;"	g	class:CCStone::tvec2
+no_init	vec3.h	/^    enum no_init { NO_INIT };$/;"	g	class:CCStone::tvec3
+no_init	vec4.h	/^    enum no_init { NO_INIT };$/;"	g	class:CCStone::tvec4
+normalize	TVecHelpers.h	/^    BASE<T> PURE normalize(const BASE<T>& lv) {$/;"	f	class:CCStone::TVecFunctions
+offsetBy	Rect.cpp	/^Rect& Rect::offsetBy(int32_t x, int32_t y) {$/;"	f	class:CCStone::Rect
+offsetBy	Rect.h	/^    Rect& offsetBy(const Point& dp) {$/;"	f	class:CCStone::Rect
+offsetTo	Rect.cpp	/^Rect& Rect::offsetTo(int32_t x, int32_t y) {$/;"	f	class:CCStone::Rect
+offsetTo	Rect.h	/^    Rect& offsetTo(const Point& p) {$/;"	f	class:CCStone::Rect
+offsetToOrigin	Rect.h	/^    Rect& offsetToOrigin() {$/;"	f	class:CCStone::Rect
+op_and	Region.cpp	/^    op_and  = region_operator<Rect>::op_and,$/;"	e	enum:CCStone::__anon23	file:
+op_and	RegionHelper.h	/^        op_and  = LHS &  RHS,$/;"	e	enum:CCStone::region_operator::__anon25
+op_mask	RegionHelper.h	/^    uint32_t op_mask;$/;"	m	class:CCStone::region_operator
+op_nand	Region.cpp	/^    op_nand = region_operator<Rect>::op_nand,$/;"	e	enum:CCStone::__anon23	file:
+op_nand	RegionHelper.h	/^        op_nand = LHS & ~RHS,$/;"	e	enum:CCStone::region_operator::__anon25
+op_or	Region.cpp	/^    op_or   = region_operator<Rect>::op_or,$/;"	e	enum:CCStone::__anon23	file:
+op_or	RegionHelper.h	/^        op_or   = LHS |  RHS,$/;"	e	enum:CCStone::region_operator::__anon25
+op_xor	Region.cpp	/^    op_xor  = region_operator<Rect>::op_xor$/;"	e	enum:CCStone::__anon23	file:
+op_xor	RegionHelper.h	/^        op_xor  = LHS ^  RHS$/;"	e	enum:CCStone::region_operator::__anon25
+operation	Region.cpp	/^const Region Region::operation(const Rect& rhs, int op) const {$/;"	f	class:CCStone::Region
+operation	Region.cpp	/^const Region Region::operation(const Region& rhs, int dx, int dy, int op) const {$/;"	f	class:CCStone::Region
+operation	Region.cpp	/^const Region Region::operation(const Region& rhs, int op) const {$/;"	f	class:CCStone::Region
+operationSelf	Region.cpp	/^Region& Region::operationSelf(const Rect& r, int op) {$/;"	f	class:CCStone::Region
+operationSelf	Region.cpp	/^Region& Region::operationSelf(const Region& rhs, int dx, int dy, int op) {$/;"	f	class:CCStone::Region
+operationSelf	Region.cpp	/^Region& Region::operationSelf(const Region& rhs, int op) {$/;"	f	class:CCStone::Region
+operator !=	Point.h	/^    inline bool operator != (const Point& rhs) const {$/;"	f	class:CCStone::Point
+operator !=	Rect.h	/^    inline bool operator != (const Rect& rhs) const {$/;"	f	class:CCStone::Rect
+operator !=	TVecHelpers.h	/^    bool PURE operator !=(const BASE<T>& lv, const BASE<RT>& rv) {$/;"	f	class:CCStone::TVecComparisonOperators
+operator &	Region.h	/^const Region Region::operator & (const Region& rhs) const {$/;"	f	class:CCStone::Region
+operator &=	Region.h	/^Region& Region::operator &= (const Region& rhs) {$/;"	f	class:CCStone::Region
+operator ()	Region.cpp	/^    virtual void operator()(const Rect& rect) {$/;"	f	class:CCStone::Region::rasterizer
+operator ()	RegionHelper.h	/^    void operator()(region_rasterizer& rasterizer) {$/;"	f	class:CCStone::region_operator
+operator *	TMatHelpers.h	/^    friend BASE<T> PURE operator *(const BASE<T>& lhs, const BASE<U>& rhs) {$/;"	f	class:CCStone::TMatProductOperators
+operator *	TVecHelpers.h	/^    BASE<T> PURE operator *(const BASE<T>& lv, const BASE<RT>& rv) {$/;"	f	class:CCStone::TVecProductOperators
+operator *	TVecHelpers.h	/^    BASE<T> PURE operator *(const BASE<T>& lv, const BASE<T>& rv) {$/;"	f	class:CCStone::TVecProductOperators
+operator *	Transform.cpp	/^Transform Transform::operator * (const Transform& rhs) const$/;"	f	class:CCStone::Transform
+operator *	mat4.h	/^tmat44<T> PURE operator *(U rv, const tmat44<T>& lv) {$/;"	f	namespace:CCStone
+operator *	mat4.h	/^tmat44<T> PURE operator *(const tmat44<T>& lv, U rv) {$/;"	f	namespace:CCStone
+operator *	mat4.h	/^typename tmat44<U>::col_type PURE operator *(const tmat44<T>& lv, const tvec4<U>& rv) {$/;"	f	namespace:CCStone
+operator *	mat4.h	/^typename tmat44<U>::row_type PURE operator *(const tvec4<U>& rv, const tmat44<T>& lv) {$/;"	f	namespace:CCStone
+operator *=	TMatHelpers.h	/^    BASE<T>& operator *= (T v) {$/;"	f	class:CCStone::TMatProductOperators
+operator *=	TVecHelpers.h	/^    BASE<T>& operator *= (const BASE<OTHER>& v) {$/;"	f	class:CCStone::TVecProductOperators
+operator *=	TVecHelpers.h	/^    BASE<T>& operator *= (const BASE<T>& v) {$/;"	f	class:CCStone::TVecProductOperators
+operator +	Point.h	/^    const Point operator + (const Point& rhs) const {$/;"	f	class:CCStone::Point
+operator +	Rect.cpp	/^const Rect Rect::operator +(const Point& rhs) const {$/;"	f	class:CCStone::Rect
+operator +	Region.h	/^const Region Region::operator + (const Point& pt) const {$/;"	f	class:CCStone::Region
+operator +	TVecHelpers.h	/^    BASE<T> PURE operator +(const BASE<T>& lv, const BASE<RT>& rv) {$/;"	f	class:CCStone::TVecAddOperators
+operator +	TVecHelpers.h	/^    BASE<T> PURE operator +(const BASE<T>& lv, const BASE<T>& rv) {$/;"	f	class:CCStone::TVecAddOperators
+operator ++	TVecHelpers.h	/^    BASE<T>& operator ++ () {$/;"	f	class:CCStone::TVecUnaryOperators
+operator +=	Point.h	/^    inline Point& operator += (const Point& rhs) {$/;"	f	class:CCStone::Point
+operator +=	Rect.h	/^    Rect& operator += (const Point& rhs) {$/;"	f	class:CCStone::Rect
+operator +=	Region.h	/^Region& Region::operator += (const Point& pt) {$/;"	f	class:CCStone::Region
+operator +=	TVecHelpers.h	/^    BASE<T>& operator += (const BASE<OTHER>& v) {$/;"	f	class:CCStone::TVecAddOperators
+operator +=	TVecHelpers.h	/^    BASE<T>& operator += (const BASE<T>& v) {$/;"	f	class:CCStone::TVecAddOperators
+operator -	Point.h	/^    const Point operator - (const Point& rhs) const {$/;"	f	class:CCStone::Point
+operator -	Point.h	/^    inline Point& operator - () {$/;"	f	class:CCStone::Point
+operator -	Rect.cpp	/^const Rect Rect::operator -(const Point& rhs) const {$/;"	f	class:CCStone::Rect
+operator -	Region.h	/^const Region Region::operator - (const Region& rhs) const {$/;"	f	class:CCStone::Region
+operator -	TVecHelpers.h	/^    BASE<T> PURE operator -(const BASE<T>& lv, const BASE<RT>& rv) {$/;"	f	class:CCStone::TVecAddOperators
+operator -	TVecHelpers.h	/^    BASE<T> PURE operator -(const BASE<T>& lv, const BASE<T>& rv) {$/;"	f	class:CCStone::TVecAddOperators
+operator -	TVecHelpers.h	/^    BASE<T> operator - () const {$/;"	f	class:CCStone::TVecUnaryOperators
+operator --	TVecHelpers.h	/^    BASE<T>& operator -- () {$/;"	f	class:CCStone::TVecUnaryOperators
+operator -=	Point.h	/^    inline Point& operator -= (const Point& rhs) {$/;"	f	class:CCStone::Point
+operator -=	Rect.h	/^    Rect& operator -= (const Point& rhs) {$/;"	f	class:CCStone::Rect
+operator -=	Region.h	/^Region& Region::operator -= (const Region& rhs) {$/;"	f	class:CCStone::Region
+operator -=	TVecHelpers.h	/^    BASE<T>& operator -= (const BASE<OTHER>& v) {$/;"	f	class:CCStone::TVecAddOperators
+operator -=	TVecHelpers.h	/^    BASE<T>& operator -= (const BASE<T>& v) {$/;"	f	class:CCStone::TVecAddOperators
+operator /	TVecHelpers.h	/^    BASE<T> PURE operator \/(const BASE<T>& lv, const BASE<RT>& rv) {$/;"	f	class:CCStone::TVecProductOperators
+operator /	TVecHelpers.h	/^    BASE<T> PURE operator \/(const BASE<T>& lv, const BASE<T>& rv) {$/;"	f	class:CCStone::TVecProductOperators
+operator /=	TMatHelpers.h	/^    BASE<T>& operator \/= (T v) {$/;"	f	class:CCStone::TMatProductOperators
+operator /=	TVecHelpers.h	/^    BASE<T>& operator \/= (const BASE<OTHER>& v) {$/;"	f	class:CCStone::TVecProductOperators
+operator /=	TVecHelpers.h	/^    BASE<T>& operator \/= (const BASE<T>& v) {$/;"	f	class:CCStone::TVecProductOperators
+operator <	Point.h	/^    bool operator < (const Point& rhs) const {$/;"	f	class:CCStone::Point
+operator <	Rect.cpp	/^bool Rect::operator <(const Rect& rhs) const {$/;"	f	class:CCStone::Rect
+operator <	RenderEngine.cpp	/^        bool operator < (const Attribute& other) const {$/;"	f	struct:CCStone::EGLAttributeVector::Attribute
+operator <	TVecHelpers.h	/^    bool PURE operator <(const BASE<T>& lv, const BASE<RT>& rv) {$/;"	f	class:CCStone::TVecComparisonOperators
+operator <	TypeHelpers.h	/^    inline bool operator < (const key_value_pair_t& o) const {$/;"	f	struct:CCStone::key_value_pair_t
+operator <<	ProgramCache.cpp	/^    friend Formatter& operator << (Formatter& out, const char* in) {$/;"	f	class:android::Formatter
+operator <<	ProgramCache.cpp	/^    friend inline Formatter& operator << (Formatter& out, const String8& in) {$/;"	f	class:android::Formatter
+operator <<	ProgramCache.cpp	/^    friend inline Formatter& operator<<(Formatter& to, FormaterManipFunc func) {$/;"	f	class:android::Formatter
+operator <=	TVecHelpers.h	/^    bool PURE operator <=(const BASE<T>& lv, const BASE<RT>& rv) {$/;"	f	class:CCStone::TVecComparisonOperators
+operator =	Region.cpp	/^Region& Region::operator = (const Region& rhs)$/;"	f	class:CCStone::Region
+operator =	RenderEngine.cpp	/^        void operator = (EGLint value) {$/;"	f	class:CCStone::EGLAttributeVector::Adder
+operator =	TVecHelpers.h	/^    Impersonator& operator = (const TYPE& rhs) {$/;"	f	struct:CCStone::Impersonator
+operator ==	Point.h	/^    inline bool operator == (const Point& rhs) const {$/;"	f	class:CCStone::Point
+operator ==	ProgramCache.h	/^        bool operator== (const Key &key) {$/;"	f	class:CCStone::ProgramCache::Key
+operator ==	Rect.h	/^    inline bool operator == (const Rect& rhs) const {$/;"	f	class:CCStone::Rect
+operator ==	TVecHelpers.h	/^    bool PURE operator ==(const BASE<T>& lv, const BASE<RT>& rv) {$/;"	f	class:CCStone::TVecComparisonOperators
+operator >	TVecHelpers.h	/^    bool PURE operator >(const BASE<T>& lv, const BASE<RT>& rv) {$/;"	f	class:CCStone::TVecComparisonOperators
+operator >=	TVecHelpers.h	/^    bool PURE operator >=(const BASE<T>& lv, const BASE<RT>& rv) {$/;"	f	class:CCStone::TVecComparisonOperators
+operator EGLint	RenderEngine.cpp	/^        operator EGLint () const { return v.mList[attribute]; }$/;"	f	class:CCStone::EGLAttributeVector::Adder
+operator EGLint const*	RenderEngine.cpp	/^    operator EGLint const* () const { return &mList.keyAt(0).v; }$/;"	f	class:CCStone::EGLAttributeVector
+operator TYPE const&	TVecHelpers.h	/^    operator TYPE const& () const {$/;"	f	struct:CCStone::Impersonator
+operator TYPE&	TVecHelpers.h	/^    operator TYPE& () {$/;"	f	struct:CCStone::Impersonator
+operator []	Mesh.h	/^        TYPE const& operator[](size_t index) const {$/;"	f	class:CCStone::Mesh::VertexArray
+operator []	Mesh.h	/^        TYPE& operator[](size_t index) {$/;"	f	class:CCStone::Mesh::VertexArray
+operator []	RenderEngine.cpp	/^    Adder operator [] (EGLint attribute) {$/;"	f	class:CCStone::EGLAttributeVector
+operator []	RenderEngine.cpp	/^    EGLint operator [] (EGLint attribute) const {$/;"	f	class:CCStone::EGLAttributeVector
+operator []	Transform.cpp	/^const vec3& Transform::operator [] (size_t i) const {$/;"	f	class:CCStone::Transform
+operator []	Transform.h	/^        inline const vec3& operator [] (int i) const { return v[i]; }$/;"	f	struct:CCStone::Transform::mat33
+operator []	Transform.h	/^        inline vec3& operator [] (int i) { return v[i]; }$/;"	f	struct:CCStone::Transform::mat33
+operator []	mat4.h	/^    inline col_type const& operator [] (size_t i) const { return mValue[i]; }$/;"	f	class:CCStone::tmat44
+operator []	mat4.h	/^    inline col_type&       operator [] (size_t i)       { return mValue[i]; }$/;"	f	class:CCStone::tmat44
+operator []	vec2.h	/^    inline T const& operator [] (size_t i) const { return (&x)[i]; }$/;"	f	class:CCStone::tvec2
+operator []	vec2.h	/^    inline T&       operator [] (size_t i)       { return (&x)[i]; }$/;"	f	class:CCStone::tvec2
+operator []	vec3.h	/^    inline T const& operator [] (size_t i) const { return (&x)[i]; }$/;"	f	class:CCStone::tvec3
+operator []	vec3.h	/^    inline T&       operator [] (size_t i)       { return (&x)[i]; }$/;"	f	class:CCStone::tvec3
+operator []	vec4.h	/^    inline T const& operator [] (size_t i) const { return (&x)[i]; }$/;"	f	class:CCStone::tvec4
+operator []	vec4.h	/^    inline T&       operator [] (size_t i)       { return (&x)[i]; }$/;"	f	class:CCStone::tvec4
+operator ^	Region.h	/^const Region Region::operator ^ (const Region& rhs) const {$/;"	f	class:CCStone::Region
+operator ^=	Region.h	/^Region& Region::operator ^= (const Region& rhs) {$/;"	f	class:CCStone::Region
+operator |	Region.h	/^const Region Region::operator | (const Region& rhs) const {$/;"	f	class:CCStone::Region
+operator |=	Region.h	/^Region& Region::operator |= (const Region& rhs) {$/;"	f	class:CCStone::Region
+orSelf	Region.cpp	/^Region& Region::orSelf(const Rect& r) {$/;"	f	class:CCStone::Region
+orSelf	Region.cpp	/^Region& Region::orSelf(const Region& rhs) {$/;"	f	class:CCStone::Region
+orSelf	Region.cpp	/^Region& Region::orSelf(const Region& rhs, int dx, int dy) {$/;"	f	class:CCStone::Region
+orientation_flags	Transform.h	/^            enum orientation_flags {$/;"	g	class:CCStone::Transform
+ortho	mat4.h	/^tmat44<T> tmat44<T>::ortho(T left, T right, T bottom, T top, T near, T far) {$/;"	f	class:CCStone::tmat44
+p	vec3.h	/^        struct { T s, t, p; };$/;"	m	struct:CCStone::tvec3::__anon13::__anon15
+p	vec4.h	/^        struct { T s, t, p, q; };$/;"	m	struct:CCStone::tvec4::__anon18::__anon20
+parseGlesVersion	RenderEngine.cpp	/^RenderEngine::GlesVersion RenderEngine::parseGlesVersion(const char* str) {$/;"	f	class:CCStone::RenderEngine
+position	Program.h	/^    enum { position=0, texCoords=1 };$/;"	e	enum:android::Program::__anon36
+prepare	RegionHelper.h	/^        inline void prepare(int inside) {$/;"	f	class:CCStone::region_operator::SpannerInner
+preserveRects	Transform.cpp	/^bool Transform::preserveRects() const$/;"	f	class:CCStone::Transform
+primeCache	ProgramCache.cpp	/^void ProgramCache::primeCache() {$/;"	f	class:android::ProgramCache
+q	vec4.h	/^        struct { T s, t, p, q; };$/;"	m	struct:CCStone::tvec4::__anon18::__anon20
+r	vec2.h	/^        struct { T r, g; };$/;"	m	struct:CCStone::tvec2::__anon29::__anon32
+r	vec3.h	/^        struct { T r, g, b; };$/;"	m	struct:CCStone::tvec3::__anon13::__anon16
+r	vec4.h	/^        struct { T r, g, b, a; };$/;"	m	struct:CCStone::tvec4::__anon18::__anon21
+rasterizer	Region.cpp	/^    rasterizer(Region& reg) $/;"	f	class:CCStone::Region::rasterizer
+rasterizer	Region.cpp	/^class Region::rasterizer : public region_operator<Rect>::region_rasterizer $/;"	c	class:CCStone::Region	file:
+read	Flattenable.h	/^    static void read(void const*& buffer, size_t& size, T& value) {$/;"	f	class:CCStone::FlattenableUtils
+readPixels	RenderEngine.cpp	/^void RenderEngine::readPixels(size_t l, size_t b, size_t w, size_t h, uint32_t* pixels) {$/;"	f	class:CCStone::RenderEngine
+rects	RegionHelper.h	/^        RECT const* rects;$/;"	m	struct:CCStone::region_operator::region
+reduce	Rect.cpp	/^Rect Rect::reduce(const Rect& exclude) const {$/;"	f	class:CCStone::Rect
+reference	mat4.h	/^    typedef T& reference;$/;"	t	class:CCStone::tmat44
+reference	vec2.h	/^    typedef T& reference;$/;"	t	class:CCStone::tvec2
+reference	vec3.h	/^    typedef T& reference;$/;"	t	class:CCStone::tvec3
+reference	vec4.h	/^    typedef T& reference;$/;"	t	class:CCStone::tvec4
+region	RegionHelper.h	/^        inline region(RECT const* r, size_t c) $/;"	f	struct:CCStone::region_operator::region
+region	RegionHelper.h	/^        inline region(RECT const* r, size_t c, TYPE dx, TYPE dy) $/;"	f	struct:CCStone::region_operator::region
+region	RegionHelper.h	/^        inline region(const region& rhs) $/;"	f	struct:CCStone::region_operator::region
+region	RegionHelper.h	/^    struct region {$/;"	s	class:CCStone::region_operator
+region_operator	RegionHelper.h	/^    inline region_operator(int op, const region& lhs, const region& rhs) $/;"	f	class:CCStone::region_operator
+region_operator	RegionHelper.h	/^class region_operator$/;"	c	namespace:CCStone
+region_rasterizer	RegionHelper.h	/^    class region_rasterizer {$/;"	c	class:CCStone::region_operator
+remove	RenderEngine.cpp	/^    void remove(EGLint attribute) {$/;"	f	class:CCStone::EGLAttributeVector
+reset	Transform.cpp	/^void Transform::reset() {$/;"	f	class:CCStone::Transform
+reverseRectsResolvingJunctions	Region.cpp	/^static void reverseRectsResolvingJunctions(const Rect* begin, const Rect* end,$/;"	f	namespace:CCStone
+rg	vec3.h	/^        Impersonator< tvec2<T> > rg;$/;"	m	union:CCStone::tvec3::__anon13
+rg	vec4.h	/^        Impersonator< tvec2<T> > rg;$/;"	m	union:CCStone::tvec4::__anon18
+rgb	vec4.h	/^        Impersonator< tvec3<T> > rgb;$/;"	m	union:CCStone::tvec4::__anon18
+rhs	RegionHelper.h	/^        region rhs;$/;"	m	class:CCStone::region_operator::Spanner
+rhs	RegionHelper.h	/^        region rhs;$/;"	m	class:CCStone::region_operator::SpannerInner
+rhs_head	RegionHelper.h	/^        TYPE rhs_head;$/;"	m	class:CCStone::region_operator::SpannerBase
+rhs_tail	RegionHelper.h	/^        TYPE rhs_tail;$/;"	m	class:CCStone::region_operator::SpannerBase
+rightBottom	Rect.h	/^    Point rightBottom() const {$/;"	f	class:CCStone::Rect
+rightTop	Rect.h	/^    Point rightTop() const {$/;"	f	class:CCStone::Rect
+rotate	mat4.h	/^tmat44<T> tmat44<T>::rotate(A radian, const tvec3<B>& about) {$/;"	f	class:CCStone::tmat44
+row_size	mat4.h	/^    static inline size_t row_size() { return ROW_SIZE; }$/;"	f	class:CCStone::tmat44
+row_type	mat4.h	/^    typedef tvec4<T> row_type;$/;"	t	class:CCStone::tmat44
+s	vec2.h	/^        struct { T s, t; };$/;"	m	struct:CCStone::tvec2::__anon29::__anon31
+s	vec3.h	/^        struct { T s, t, p; };$/;"	m	struct:CCStone::tvec3::__anon13::__anon15
+s	vec4.h	/^        struct { T s, t, p, q; };$/;"	m	struct:CCStone::tvec4::__anon18::__anon20
+scale	mat4.h	/^tmat44<T> tmat44<T>::scale(const tvec4<A>& s) {$/;"	f	class:CCStone::tmat44
+selectConfigForAttribute	RenderEngine.cpp	/^static status_t selectConfigForAttribute(EGLDisplay dpy, EGLint const* attrs,$/;"	f	namespace:CCStone
+selectEGLConfig	RenderEngine.cpp	/^static status_t selectEGLConfig(EGLDisplay display, EGLint format,$/;"	f	namespace:CCStone
+set	ProgramCache.h	/^        inline Key& set(key_t mask, key_t value) {$/;"	f	class:CCStone::ProgramCache::Key
+set	Rect.h	/^    inline void set(const Rect& rhs) { operator = (rhs); }$/;"	f	class:CCStone::Rect
+set	Region.cpp	/^void Region::set(const Rect& r)$/;"	f	class:CCStone::Region
+set	Region.cpp	/^void Region::set(uint32_t w, uint32_t h)$/;"	f	class:CCStone::Region
+set	Transform.cpp	/^status_t Transform::set(uint32_t flags, float w, float h)$/;"	f	class:CCStone::Transform
+set	Transform.cpp	/^void Transform::set(float a, float b, float c, float d)$/;"	f	class:CCStone::Transform
+set	Transform.cpp	/^void Transform::set(float tx, float ty)$/;"	f	class:CCStone::Transform
+setColor	Description.cpp	/^void Description::setColor(GLclampf red, GLclampf green, GLclampf blue, GLclampf alpha) {$/;"	f	class:CCStone::Description
+setColorMatrix	Description.cpp	/^void Description::setColorMatrix(const mat4& mtx) {$/;"	f	class:CCStone::Description
+setDimensions	Texture.cpp	/^void Texture::setDimensions(size_t width, size_t height) {$/;"	f	class:CCStone::Texture
+setEGLHandles	RenderEngine.cpp	/^void RenderEngine::setEGLHandles(EGLConfig config, EGLContext ctxt) {$/;"	f	class:CCStone::RenderEngine
+setFiltering	Texture.cpp	/^void Texture::setFiltering(bool enabled) {$/;"	f	class:CCStone::Texture
+setLeftTop	Rect.h	/^    void setLeftTop(const Point& lt) {$/;"	f	class:CCStone::Rect
+setMatrix	Texture.cpp	/^void Texture::setMatrix(float const* matrix) {$/;"	f	class:CCStone::Texture
+setOpaque	Description.cpp	/^void Description::setOpaque(bool opaque) {$/;"	f	class:CCStone::Description
+setPlaneAlpha	Description.cpp	/^void Description::setPlaneAlpha(GLclampf planeAlpha) {$/;"	f	class:CCStone::Description
+setPremultipliedAlpha	Description.cpp	/^void Description::setPremultipliedAlpha(bool premultipliedAlpha) {$/;"	f	class:CCStone::Description
+setProjectionMatrix	Description.cpp	/^void Description::setProjectionMatrix(const mat4& mtx) {$/;"	f	class:CCStone::Description
+setRightBottom	Rect.h	/^    void setRightBottom(const Point& rb) {$/;"	f	class:CCStone::Rect
+setScissor	RenderEngine.cpp	/^void RenderEngine::setScissor($/;"	f	class:CCStone::RenderEngine
+setTexture	Description.cpp	/^void Description::setTexture(const Texture& texture) {$/;"	f	class:CCStone::Description
+setUniforms	Program.cpp	/^void Program::setUniforms(const Description& desc) {$/;"	f	class:CCStone::Program
+setViewportAndProjection	GLES11RenderEngine.cpp	/^void GLES11RenderEngine::setViewportAndProjection($/;"	f	class:CCStone::GLES11RenderEngine
+setViewportAndProjection	GLES20RenderEngine.cpp	/^void GLES20RenderEngine::setViewportAndProjection($/;"	f	class:CCStone::GLES20RenderEngine
+setupColorTransform	GLES20RenderEngine.cpp	/^mat4 GLES20RenderEngine::setupColorTransform(const mat4& colorTransform) {$/;"	f	class:CCStone::GLES20RenderEngine
+setupColorTransform	RenderEngine.h	/^    virtual mat4 setupColorTransform(const mat4& \/* colorTransform *\/) {$/;"	f	class:CCStone::RenderEngine
+setupDimLayerBlending	GLES11RenderEngine.cpp	/^void GLES11RenderEngine::setupDimLayerBlending(int alpha) {$/;"	f	class:CCStone::GLES11RenderEngine
+setupDimLayerBlending	GLES20RenderEngine.cpp	/^void GLES20RenderEngine::setupDimLayerBlending(int alpha) {$/;"	f	class:CCStone::GLES20RenderEngine
+setupFillWithColor	GLES11RenderEngine.cpp	/^void GLES11RenderEngine::setupFillWithColor(float r, float g, float b, float a) {$/;"	f	class:CCStone::GLES11RenderEngine
+setupFillWithColor	GLES20RenderEngine.cpp	/^void GLES20RenderEngine::setupFillWithColor(float r, float g, float b, float a) {$/;"	f	class:CCStone::GLES20RenderEngine
+setupLayerBlackedOut	GLES11RenderEngine.cpp	/^void GLES11RenderEngine::setupLayerBlackedOut() {$/;"	f	class:CCStone::GLES11RenderEngine
+setupLayerBlackedOut	GLES20RenderEngine.cpp	/^void GLES20RenderEngine::setupLayerBlackedOut() {$/;"	f	class:CCStone::GLES20RenderEngine
+setupLayerBlending	GLES10RenderEngine.cpp	/^void GLES10RenderEngine::setupLayerBlending($/;"	f	class:android::GLES10RenderEngine
+setupLayerBlending	GLES11RenderEngine.cpp	/^void GLES11RenderEngine::setupLayerBlending($/;"	f	class:CCStone::GLES11RenderEngine
+setupLayerBlending	GLES20RenderEngine.cpp	/^void GLES20RenderEngine::setupLayerBlending($/;"	f	class:CCStone::GLES20RenderEngine
+setupLayerTexturing	GLES11RenderEngine.cpp	/^void GLES11RenderEngine::setupLayerTexturing(const Texture& texture) {$/;"	f	class:CCStone::GLES11RenderEngine
+setupLayerTexturing	GLES20RenderEngine.cpp	/^void GLES20RenderEngine::setupLayerTexturing(const Texture& texture) {$/;"	f	class:CCStone::GLES20RenderEngine
+size	mat4.h	/^    static inline size_t size()     { return row_size(); }  \/\/ for TVec*<>$/;"	f	class:CCStone::tmat44
+size	vec2.h	/^    inline static size_type size() { return SIZE; }$/;"	f	class:CCStone::tvec2
+size	vec3.h	/^    inline static size_type size() { return SIZE; }$/;"	f	class:CCStone::tvec3
+size	vec4.h	/^    inline static size_type size() { return SIZE; }$/;"	f	class:CCStone::tvec4
+size_type	mat4.h	/^    typedef size_t size_type;$/;"	t	class:CCStone::tmat44
+size_type	vec2.h	/^    typedef size_t size_type;$/;"	t	class:CCStone::tvec2
+size_type	vec3.h	/^    typedef size_t size_type;$/;"	t	class:CCStone::tvec3
+size_type	vec4.h	/^    typedef size_t size_type;$/;"	t	class:CCStone::tvec4
+span	Region.cpp	/^    Vector<Rect> span;$/;"	m	class:CCStone::Region::rasterizer	file:
+spanner	RegionHelper.h	/^    Spanner spanner;$/;"	m	class:CCStone::region_operator
+splat_type	TypeHelpers.h	/^void splat_type(TYPE* where, const TYPE* what, size_t n) {$/;"	f	namespace:CCStone
+st	vec3.h	/^        Impersonator< tvec2<T> > st;$/;"	m	union:CCStone::tvec3::__anon13
+st	vec4.h	/^        Impersonator< tvec2<T> > st;$/;"	m	union:CCStone::tvec4::__anon18
+storage	Region.cpp	/^    Vector<Rect>& storage;$/;"	m	class:CCStone::Region::rasterizer	file:
+stp	vec4.h	/^        Impersonator< tvec3<T> > stp;$/;"	m	union:CCStone::tvec4::__anon18
+strictly_order_type	ProgramCache.h	/^        friend inline int strictly_order_type(const Key& lhs, const Key& rhs) {$/;"	f	class:CCStone::ProgramCache::Key
+strictly_order_type	TypeHelpers.h	/^int strictly_order_type(const TYPE& lhs, const TYPE& rhs) {$/;"	f	namespace:CCStone
+subtract	Region.cpp	/^const Region Region::subtract(const Rect& rhs) const {$/;"	f	class:CCStone::Region
+subtract	Region.cpp	/^const Region Region::subtract(const Region& rhs) const {$/;"	f	class:CCStone::Region
+subtract	Region.cpp	/^const Region Region::subtract(const Region& rhs, int dx, int dy) const {$/;"	f	class:CCStone::Region
+subtractSelf	Region.cpp	/^Region& Region::subtractSelf(const Rect& r) {$/;"	f	class:CCStone::Region
+subtractSelf	Region.cpp	/^Region& Region::subtractSelf(const Region& rhs) {$/;"	f	class:CCStone::Region
+subtractSelf	Region.cpp	/^Region& Region::subtractSelf(const Region& rhs, int dx, int dy) {$/;"	f	class:CCStone::Region
+t	vec2.h	/^        struct { T s, t; };$/;"	m	struct:CCStone::tvec2::__anon29::__anon31
+t	vec3.h	/^        struct { T s, t, p; };$/;"	m	struct:CCStone::tvec3::__anon13::__anon15
+t	vec4.h	/^        struct { T s, t, p, q; };$/;"	m	struct:CCStone::tvec4::__anon18::__anon20
+tail	Region.cpp	/^    Rect* tail;$/;"	m	class:CCStone::Region::rasterizer	file:
+texCoords	Program.h	/^    enum { position=0, texCoords=1 };$/;"	e	enum:android::Program::__anon36
+texture	GLES20RenderEngine.h	/^        GLuint texture;$/;"	m	struct:android::GLES20RenderEngine::Group
+tmat44	mat4.h	/^    explicit tmat44(no_init) { }$/;"	f	class:CCStone::tmat44
+tmat44	mat4.h	/^class tmat44 :  public TVecUnaryOperators<tmat44, T>,$/;"	c	namespace:CCStone
+tmat44	mat4.h	/^tmat44<T>::tmat44(  A m00, B m01, C m02, D m03,$/;"	f	class:CCStone::tmat44
+tmat44	mat4.h	/^tmat44<T>::tmat44() {$/;"	f	class:CCStone::tmat44
+tmat44	mat4.h	/^tmat44<T>::tmat44(U const* rawArray) {$/;"	f	class:CCStone::tmat44
+tmat44	mat4.h	/^tmat44<T>::tmat44(U v) {$/;"	f	class:CCStone::tmat44
+tmat44	mat4.h	/^tmat44<T>::tmat44(const tmat44<U>& rhs) {$/;"	f	class:CCStone::tmat44
+tmat44	mat4.h	/^tmat44<T>::tmat44(const tvec4<A>& v0, const tvec4<B>& v1, const tvec4<C>& v2, const tvec4<D>& v3) {$/;"	f	class:CCStone::tmat44
+tmat44	mat4.h	/^tmat44<T>::tmat44(const tvec4<U>& v) {$/;"	f	class:CCStone::tmat44
+trace	TMatHelpers.h	/^    friend T       PURE trace(const BASE<T>& m)     { return matrix::trace(m); }$/;"	f	class:CCStone::TMatSquareFunctions
+trace	TMatHelpers.h	/^inline double  PURE trace(double v) { return v; }$/;"	f	namespace:CCStone::matrix
+trace	TMatHelpers.h	/^inline float   PURE trace(float v)  { return v; }$/;"	f	namespace:CCStone::matrix
+trace	TMatHelpers.h	/^inline int     PURE trace(int v)    { return v; }$/;"	f	namespace:CCStone::matrix
+trace	TMatHelpers.h	/^typename MATRIX::value_type PURE trace(const MATRIX& m) {$/;"	f	namespace:CCStone::matrix
+trait_pointer	TypeHelpers.h	/^template <typename T> struct trait_pointer      { enum { value = false }; };    $/;"	s	namespace:CCStone
+trait_pointer	TypeHelpers.h	/^template <typename T> struct trait_pointer<T*>  { enum { value = true }; };$/;"	s	namespace:CCStone
+trait_trivial_copy	TypeHelpers.h	/^struct trait_trivial_copy< key_value_pair_t<K, V> >$/;"	s	namespace:CCStone
+trait_trivial_copy	TypeHelpers.h	/^template <typename T> struct trait_trivial_copy { enum { value = false }; };$/;"	s	namespace:CCStone
+trait_trivial_ctor	TypeHelpers.h	/^struct trait_trivial_ctor< key_value_pair_t<K, V> >$/;"	s	namespace:CCStone
+trait_trivial_ctor	TypeHelpers.h	/^template <typename T> struct trait_trivial_ctor { enum { value = false }; };$/;"	s	namespace:CCStone
+trait_trivial_dtor	TypeHelpers.h	/^struct trait_trivial_dtor< key_value_pair_t<K, V> >$/;"	s	namespace:CCStone
+trait_trivial_dtor	TypeHelpers.h	/^template <typename T> struct trait_trivial_dtor { enum { value = false }; };$/;"	s	namespace:CCStone
+trait_trivial_move	TypeHelpers.h	/^struct trait_trivial_move< key_value_pair_t<K, V> >$/;"	s	namespace:CCStone
+trait_trivial_move	TypeHelpers.h	/^template <typename T> struct trait_trivial_move { enum { value = false }; };$/;"	s	namespace:CCStone
+traits	TypeHelpers.h	/^struct traits {$/;"	s	namespace:CCStone
+transform	Rect.cpp	/^Rect Rect::transform(uint32_t xform, int32_t width, int32_t height) const {$/;"	f	class:CCStone::Rect
+transform	Transform.cpp	/^Rect Transform::transform(const Rect& bounds) const$/;"	f	class:CCStone::Transform
+transform	Transform.cpp	/^Region Transform::transform(const Region& reg) const$/;"	f	class:CCStone::Transform
+transform	Transform.cpp	/^vec2 Transform::transform(const vec2& v) const {$/;"	f	class:CCStone::Transform
+transform	Transform.cpp	/^vec2 Transform::transform(int x, int y) const$/;"	f	class:CCStone::Transform
+transform	Transform.cpp	/^vec3 Transform::transform(const vec3& v) const {$/;"	f	class:CCStone::Transform
+transformed	Transform.cpp	/^bool Transform::transformed() const {$/;"	f	class:CCStone::Transform
+translate	Region.cpp	/^const Region Region::translate(int x, int y) const {$/;"	f	class:CCStone::Region
+translate	Region.cpp	/^void Region::translate(Region& dst, const Region& reg, int dx, int dy)$/;"	f	class:CCStone::Region
+translate	Region.cpp	/^void Region::translate(Region& reg, int dx, int dy)$/;"	f	class:CCStone::Region
+translate	mat4.h	/^tmat44<T> tmat44<T>::translate(const tvec4<A>& t) {$/;"	f	class:CCStone::tmat44
+translateSelf	Region.cpp	/^Region& Region::translateSelf(int x, int y) {$/;"	f	class:CCStone::Region
+transpose	TMatHelpers.h	/^    friend BASE<T> PURE transpose(const BASE<T>& m) { return matrix::transpose(m); }$/;"	f	class:CCStone::TMatSquareFunctions
+transpose	TMatHelpers.h	/^MATRIX PURE transpose(const MATRIX& m) {$/;"	f	namespace:CCStone::matrix
+transpose	TMatHelpers.h	/^inline double  PURE transpose(double v) { return v; }$/;"	f	namespace:CCStone::matrix
+transpose	TMatHelpers.h	/^inline float   PURE transpose(float v)  { return v; }$/;"	f	namespace:CCStone::matrix
+transpose	TMatHelpers.h	/^inline int     PURE transpose(int v)    { return v; }$/;"	f	namespace:CCStone::matrix
+tvec2	vec2.h	/^    explicit tvec2(const tvec2<A>& v) : x(v.x), y(v.y) { }$/;"	f	class:CCStone::tvec2
+tvec2	vec2.h	/^    explicit tvec2(no_init) { }$/;"	f	class:CCStone::tvec2
+tvec2	vec2.h	/^    tvec2() : x(0), y(0) { }$/;"	f	class:CCStone::tvec2
+tvec2	vec2.h	/^    tvec2(A v) : x(v), y(v) { }$/;"	f	class:CCStone::tvec2
+tvec2	vec2.h	/^    tvec2(A x, B y) : x(x), y(y) { }$/;"	f	class:CCStone::tvec2
+tvec2	vec2.h	/^    tvec2(const Impersonator< tvec2<A> >& v)$/;"	f	class:CCStone::tvec2
+tvec2	vec2.h	/^class tvec2 :   public TVecProductOperators<tvec2, T>,$/;"	c	namespace:CCStone
+tvec3	vec3.h	/^    explicit tvec3(const tvec3<A>& v) : x(v.x), y(v.y), z(v.z) { }$/;"	f	class:CCStone::tvec3
+tvec3	vec3.h	/^    explicit tvec3(no_init) { }$/;"	f	class:CCStone::tvec3
+tvec3	vec3.h	/^    tvec3() : x(0), y(0), z(0) { }$/;"	f	class:CCStone::tvec3
+tvec3	vec3.h	/^    tvec3(A v) : x(v), y(v), z(v) { }$/;"	f	class:CCStone::tvec3
+tvec3	vec3.h	/^    tvec3(A x, B y, C z) : x(x), y(y), z(z) { }$/;"	f	class:CCStone::tvec3
+tvec3	vec3.h	/^    tvec3(const Impersonator< tvec2<A> >& v, B z)$/;"	f	class:CCStone::tvec3
+tvec3	vec3.h	/^    tvec3(const Impersonator< tvec3<A> >& v)$/;"	f	class:CCStone::tvec3
+tvec3	vec3.h	/^    tvec3(const tvec2<A>& v, B z) : x(v.x), y(v.y), z(z) { }$/;"	f	class:CCStone::tvec3
+tvec3	vec3.h	/^class tvec3 :   public TVecProductOperators<tvec3, T>,$/;"	c	namespace:CCStone
+tvec4	vec4.h	/^    explicit tvec4(const tvec4<A>& v) : x(v.x), y(v.y), z(v.z), w(v.w) { }$/;"	f	class:CCStone::tvec4
+tvec4	vec4.h	/^    explicit tvec4(no_init) { }$/;"	f	class:CCStone::tvec4
+tvec4	vec4.h	/^    tvec4() : x(0), y(0), z(0), w(0) { }$/;"	f	class:CCStone::tvec4
+tvec4	vec4.h	/^    tvec4(A v) : x(v), y(v), z(v), w(v) { }$/;"	f	class:CCStone::tvec4
+tvec4	vec4.h	/^    tvec4(A x, B y, C z, D w) : x(x), y(y), z(z), w(w) { }$/;"	f	class:CCStone::tvec4
+tvec4	vec4.h	/^    tvec4(const Impersonator< tvec2<A> >& v, B z, C w)$/;"	f	class:CCStone::tvec4
+tvec4	vec4.h	/^    tvec4(const Impersonator< tvec3<A> >& v, B w)$/;"	f	class:CCStone::tvec4
+tvec4	vec4.h	/^    tvec4(const Impersonator< tvec4<A> >& v)$/;"	f	class:CCStone::tvec4
+tvec4	vec4.h	/^    tvec4(const tvec2<A>& v, B z, C w) : x(v.x), y(v.y), z(z), w(w) { }$/;"	f	class:CCStone::tvec4
+tvec4	vec4.h	/^    tvec4(const tvec3<A>& v, B w) : x(v.x), y(v.y), z(v.z), w(w) { }$/;"	f	class:CCStone::tvec4
+tvec4	vec4.h	/^class tvec4 :   public TVecProductOperators<tvec4, T>,$/;"	c	namespace:CCStone
+tx	Transform.cpp	/^float Transform::tx() const {$/;"	f	class:CCStone::Transform
+ty	Transform.cpp	/^float Transform::ty() const {$/;"	f	class:CCStone::Transform
+type	Transform.cpp	/^uint32_t Transform::type() const$/;"	f	class:CCStone::Transform
+type_mask	Transform.h	/^            enum type_mask {$/;"	g	class:CCStone::Transform
+unbindFramebuffer	GLES11RenderEngine.cpp	/^void GLES11RenderEngine::unbindFramebuffer(uint32_t texName, uint32_t fbName) {$/;"	f	class:CCStone::GLES11RenderEngine
+unbindFramebuffer	GLES20RenderEngine.cpp	/^void GLES20RenderEngine::unbindFramebuffer(uint32_t texName, uint32_t fbName) {$/;"	f	class:CCStone::GLES20RenderEngine
+unflatten	Flattenable.h	/^    inline status_t unflatten(void const* buffer, size_t) {$/;"	f	class:CCStone::LightFlattenablePod
+unflatten	Flattenable.h	/^inline status_t Flattenable<T>::unflatten($/;"	f	class:CCStone::Flattenable
+unflatten	Flattenable.h	/^inline status_t LightFlattenable<T>::unflatten(void const* buffer, size_t size) {$/;"	f	class:CCStone::LightFlattenable
+unflatten	Region.cpp	/^status_t Region::unflatten(void const* buffer, size_t size) {$/;"	f	class:CCStone::Region
+use	Program.cpp	/^void Program::use() {$/;"	f	class:CCStone::Program
+useProgram	ProgramCache.cpp	/^void ProgramCache::useProgram(const Description& description) {$/;"	f	class:android::ProgramCache
+v	RenderEngine.cpp	/^        EGLAttributeVector& v;$/;"	m	class:CCStone::EGLAttributeVector::Adder	file:
+v	RenderEngine.cpp	/^        EGLint v;$/;"	m	struct:CCStone::EGLAttributeVector::Attribute	file:
+v	Transform.h	/^        vec3 v[3];$/;"	m	struct:CCStone::Transform::mat33
+validate	Region.cpp	/^bool Region::validate(const Region& reg, const char* name, bool silent)$/;"	f	class:CCStone::Region
+value	TypeHelpers.h	/^    VALUE   value;$/;"	m	struct:CCStone::key_value_pair_t
+value	TypeHelpers.h	/^template <typename T> struct trait_pointer      { enum { value = false }; };    $/;"	e	enum:CCStone::trait_pointer::__anon5
+value	TypeHelpers.h	/^template <typename T> struct trait_pointer<T*>  { enum { value = true }; };$/;"	e	enum:CCStone::trait_pointer::__anon6
+value	TypeHelpers.h	/^template <typename T> struct trait_trivial_copy { enum { value = false }; };$/;"	e	enum:CCStone::trait_trivial_copy::__anon3
+value	TypeHelpers.h	/^template <typename T> struct trait_trivial_ctor { enum { value = false }; };$/;"	e	enum:CCStone::trait_trivial_ctor::__anon1
+value	TypeHelpers.h	/^template <typename T> struct trait_trivial_dtor { enum { value = false }; };$/;"	e	enum:CCStone::trait_trivial_dtor::__anon2
+value	TypeHelpers.h	/^template <typename T> struct trait_trivial_move { enum { value = false }; };$/;"	e	enum:CCStone::trait_trivial_move::__anon4
+value	TypeHelpers.h	/^{ enum { value = aggregate_traits<K,V>::has_trivial_copy }; };$/;"	e	enum:CCStone::trait_trivial_copy::__anon11
+value	TypeHelpers.h	/^{ enum { value = aggregate_traits<K,V>::has_trivial_ctor }; };$/;"	e	enum:CCStone::trait_trivial_ctor::__anon9
+value	TypeHelpers.h	/^{ enum { value = aggregate_traits<K,V>::has_trivial_dtor }; };$/;"	e	enum:CCStone::trait_trivial_dtor::__anon10
+value	TypeHelpers.h	/^{ enum { value = aggregate_traits<K,V>::has_trivial_move }; };$/;"	e	enum:CCStone::trait_trivial_move::__anon12
+value_t	TypeHelpers.h	/^    typedef VALUE value_t;$/;"	t	struct:CCStone::key_value_pair_t
+value_type	Rect.h	/^    typedef ARect::value_type value_type;$/;"	t	class:CCStone::Rect
+value_type	mat4.h	/^    typedef T value_type;$/;"	t	class:CCStone::tmat44
+value_type	vec2.h	/^    typedef T value_type;$/;"	t	class:CCStone::tvec2
+value_type	vec3.h	/^    typedef T value_type;$/;"	t	class:CCStone::tvec3
+value_type	vec4.h	/^    typedef T value_type;$/;"	t	class:CCStone::tvec4
+vec2	vec2.h	/^typedef tvec2<float> vec2;$/;"	t	namespace:CCStone
+vec3	vec3.h	/^typedef tvec3<float> vec3;$/;"	t	namespace:CCStone
+vec4	vec4.h	/^typedef tvec4<float> vec4;$/;"	t	namespace:CCStone
+w	vec4.h	/^        struct { T x, y, z, w; };$/;"	m	struct:CCStone::tvec4::__anon18::__anon19
+width	GLES20RenderEngine.h	/^        GLuint width;$/;"	m	struct:android::GLES20RenderEngine::Group
+width	Rect.h	/^    inline int32_t width() const { return getWidth(); }$/;"	f	class:CCStone::Rect
+write	Flattenable.h	/^    static void write(void*& buffer, size_t& size, const T& value) {$/;"	f	class:CCStone::FlattenableUtils
+x	Point.h	/^    int x;$/;"	m	class:CCStone::Point
+x	vec2.h	/^        struct { T x, y; };$/;"	m	struct:CCStone::tvec2::__anon29::__anon30
+x	vec3.h	/^        struct { T x, y, z; };$/;"	m	struct:CCStone::tvec3::__anon13::__anon14
+x	vec4.h	/^        struct { T x, y, z, w; };$/;"	m	struct:CCStone::tvec4::__anon18::__anon19
+xorSelf	Region.cpp	/^Region& Region::xorSelf(const Rect& r) {$/;"	f	class:CCStone::Region
+xorSelf	Region.cpp	/^Region& Region::xorSelf(const Region& rhs) {$/;"	f	class:CCStone::Region
+xorSelf	Region.cpp	/^Region& Region::xorSelf(const Region& rhs, int dx, int dy) {$/;"	f	class:CCStone::Region
+xy	vec3.h	/^        Impersonator< tvec2<T> > xy;$/;"	m	union:CCStone::tvec3::__anon13
+xy	vec4.h	/^        Impersonator< tvec2<T> > xy;$/;"	m	union:CCStone::tvec4::__anon18
+xyz	vec4.h	/^        Impersonator< tvec3<T> > xyz;$/;"	m	union:CCStone::tvec4::__anon18
+y	Point.h	/^    int y;$/;"	m	class:CCStone::Point
+y	vec2.h	/^        struct { T x, y; };$/;"	m	struct:CCStone::tvec2::__anon29::__anon30
+y	vec3.h	/^        struct { T x, y, z; };$/;"	m	struct:CCStone::tvec3::__anon13::__anon14
+y	vec4.h	/^        struct { T x, y, z, w; };$/;"	m	struct:CCStone::tvec4::__anon18::__anon19
+z	vec3.h	/^        struct { T x, y, z; };$/;"	m	struct:CCStone::tvec3::__anon13::__anon14
+z	vec4.h	/^        struct { T x, y, z, w; };$/;"	m	struct:CCStone::tvec4::__anon18::__anon19
+~BindImageAsFramebuffer	RenderEngine.cpp	/^RenderEngine::BindImageAsFramebuffer::~BindImageAsFramebuffer() {$/;"	f	class:CCStone::RenderEngine::BindImageAsFramebuffer
+~Description	Description.cpp	/^Description::~Description() {$/;"	f	class:CCStone::Description
+~GLES10RenderEngine	GLES10RenderEngine.cpp	/^GLES10RenderEngine::~GLES10RenderEngine() {$/;"	f	class:android::GLES10RenderEngine
+~GLES11RenderEngine	GLES11RenderEngine.cpp	/^GLES11RenderEngine::~GLES11RenderEngine() {$/;"	f	class:CCStone::GLES11RenderEngine
+~GLES20RenderEngine	GLES20RenderEngine.cpp	/^GLES20RenderEngine::~GLES20RenderEngine() {$/;"	f	class:CCStone::GLES20RenderEngine
+~Mesh	Mesh.cpp	/^Mesh::~Mesh() {$/;"	f	class:android::Mesh
+~Program	Program.cpp	/^Program::~Program() {$/;"	f	class:CCStone::Program
+~ProgramCache	ProgramCache.cpp	/^ProgramCache::~ProgramCache() {$/;"	f	class:android::ProgramCache
+~Region	Region.cpp	/^Region::~Region()$/;"	f	class:CCStone::Region
+~RenderEngine	RenderEngine.cpp	/^RenderEngine::~RenderEngine() {$/;"	f	class:CCStone::RenderEngine
+~Texture	Texture.cpp	/^Texture::~Texture() {$/;"	f	class:CCStone::Texture
+~Transform	Transform.cpp	/^Transform::~Transform() {$/;"	f	class:CCStone::Transform
+~rasterizer	Region.cpp	/^    ~rasterizer() {$/;"	f	class:CCStone::Region::rasterizer
+~region_rasterizer	RegionHelper.h	/^        virtual ~region_rasterizer() { };$/;"	f	class:CCStone::region_operator::region_rasterizer

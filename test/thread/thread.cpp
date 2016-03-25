@@ -1,4 +1,4 @@
-#define LOG_TAG "TestLog"
+#define LOG_TAG "TestThread"
 #define LOG_NDEBUG 0
 #include <ccstone/defines.h>
 #include <ccstone/logd.h>
@@ -22,22 +22,12 @@ class MyThread : public CCStone::Thread {
 int main(int argc, char **args)
 {
   SCOPEDDEBUG();
-  DEBUG("%s", "Debug");
-  ALOGV("ALOGV");
-  ALOGD("ALOGD");
-  ALOGI("ALOGI");
-  ALOGW("ALOGW");
-  ALOGE("ALOGE");
-
-  status_t err = ERRNUM(123);
-  CHECK_EQ(123, CSM_CUSTOM(err));
-  CHECK_EQ(__LINE__ - 2, CSM_LINE(err));
-  err = ERRNUMSTR("init err value.");
-  DEBUG("err %d", err);
+  CCStone::Mutex lock;
+  CCStone::AutoLock autolock(&lock);
 
   const char *tname = "test_log_thread";
   MyThread thread(tname);
   thread.waitExit(1000 * 2);
   thread.stop(true, 10 * 1000);
-  return err;
+  return 0;
 }
