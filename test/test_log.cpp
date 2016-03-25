@@ -3,6 +3,7 @@
 #include <ccstone/defines.h>
 #include <ccstone/logd.h>
 #include <ccstone/thread.h>
+#include <unistd.h>
 
 class MyThread : public CCStone::Thread {
     private:

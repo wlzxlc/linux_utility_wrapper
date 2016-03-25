@@ -16,5 +16,13 @@ LOCAL_PATH := $(call my-dir)
 
 ROOT := $(LOCAL_PATH)
 
-include $(call all-subdir-makefiles)
+# Delete out and release directory.
+.PHONY : project_clean
 
+project_clean:
+	@rm -rf $(APP_OUTPUT_DIR)
+	@rm -rf $(APP_RELEASE_DIR)
+
+$(call add-module-clean,,project_clean)
+
+include $(call all-subdir-makefiles)
