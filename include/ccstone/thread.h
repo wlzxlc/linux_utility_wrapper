@@ -4,6 +4,8 @@
 #ifdef HAVE_THREAD
 #include <pthread.h>
 #include <sys/prctl.h>
+#include <stdlib.h>
+#include <malloc.h>
 #include "common_type.h"
 #include "defines.h"
 #ifdef __cplusplus

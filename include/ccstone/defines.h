@@ -4,7 +4,7 @@
 #include <libgen.h>
 
 #ifndef DEBUG
-#define DEBUG(fmt, ...) ALOGV("%s[L%d]%s: " fmt, basename(__FILE__),__LINE__,__FUNCTION__,## __VA_ARGS__)
+#define DEBUG(fmt, ...) ALOGV("%s[L%d]%s: " fmt, basename(const_cast<char *>(__FILE__)),__LINE__,__FUNCTION__,## __VA_ARGS__)
 #endif
 
 #ifndef ERRNUMSTR
@@ -24,6 +24,7 @@
 #include <string.h>
 #include <sys/types.h>
 #include <sys/syscall.h>
+#include <sys/time.h>
 namespace CCStone {
 class ScodedDebug {
     public:

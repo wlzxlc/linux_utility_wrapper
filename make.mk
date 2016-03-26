@@ -26,7 +26,9 @@ HAVE_THREAD = 1
 HAVE_TELNETD = 1
 
 # Have Opengles support
-HAVE_OPENGLES = 1
+ifeq ($(TARGET_PLATFORM),android)
+ HAVE_OPENGLES = 1
+endif
 
 # Delete out and release directory.
 .PHONY : project_clean

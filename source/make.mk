@@ -71,6 +71,10 @@ ifeq ($(TARGET_PLATFORM),android)
   LOCAL_CFLAGS += -DANDROID_LOG
   LOCAL_EXPORT_LDLIBS := -llog
  endif
+else
+ ifdef HAVE_THREAD
+  LOCAL_EXPORT_LDLIBS += -pthread
+ endif
 endif
 
 ifdef TARGET_RELEASE_DIR
