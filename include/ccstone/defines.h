@@ -23,8 +23,10 @@
 #include <string>
 #include <string.h>
 #include <sys/types.h>
+#include <unistd.h>
 #include <sys/syscall.h>
 #include <sys/time.h>
+
 namespace CCStone {
 class ScodedDebug {
     public:

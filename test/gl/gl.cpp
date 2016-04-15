@@ -15,6 +15,8 @@
 #include <string.h>
 #include <stdlib.h>
 #include <sys/system_properties.h>
+#include <android/api-level.h>
+
 using namespace CCStone;
 /*
 IOMX_HAL_PIXEL_FORMAT_RGBA_8888          = 1,
@@ -31,9 +33,11 @@ static bool FindGraphicsAPI(OmxGraphics_t &api)
     int ret = false;
 
     char buffer[1024] = {0};
+    int32_t sdk = (int32_t)__ANDROID_API__;
+#if __ANDROID_API__ < 21
+    sdk = atoi(buffer) + 1;
     __system_property_get("ro.build.version.sdk",buffer);
-    int32_t sdk = atoi(buffer) + 1;
-
+#endif
     ALOGD("Find sdk version: %d\n", sdk);
     const char *namestr = "libstone_omx_%d.so";
 
@@ -299,7 +303,7 @@ int main(int argc, char **args)
     mEGLDisplay = eglGetDisplay(EGL_DEFAULT_DISPLAY);
     eglInitialize(mEGLDisplay, NULL, NULL);
     RenderEngine* engine = RenderEngine::create(mEGLDisplay, 1);
-    ALOGI("RenderEngine %p config %u context %u\n", engine,(uint32_t) engine->getEGLConfig(),(uint32_t) engine->getEGLContext());
+    ALOGI("RenderEngine %p config %p context %p\n", engine, engine->getEGLConfig(), engine->getEGLContext());
     
     createEglSurface(engine, mEGLDisplay, 1920, 1080);
 

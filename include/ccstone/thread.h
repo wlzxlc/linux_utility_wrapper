@@ -6,6 +6,7 @@
 #include <sys/prctl.h>
 #include <stdlib.h>
 #include <malloc.h>
+#include <inttypes.h>
 #include "common_type.h"
 #include "defines.h"
 #ifdef __cplusplus
@@ -217,7 +218,7 @@ class Thread {
         {
             AutoLock lock(&_mutex);
             if (_run) {
-             ALOGD("Wait %lld (ms)", ms);
+             ALOGD("Wait %"PRIu64 "(ms)", ms);
              SCOPEDDEBUG();
              _cond.timedWait(&_mutex, ms);
             }

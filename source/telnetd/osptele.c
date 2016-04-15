@@ -902,7 +902,7 @@ API void OspTelAuthor(const char * szUsername ,const char * szPassword)
   ====================================================================*/
 API void RunCmd(char *szCmd)
 { 
-    int para[10];
+    long para[10];
     const char *ppara[10]; 
     TRawPara atRawPara[10];
     int paraNum = 0;
@@ -1012,7 +1012,7 @@ API void RunCmd(char *szCmd)
 
 		        if(atRawPara[count].bInQuote)
 		        {
-		            para[count] = (int)atRawPara[count].paraStr;
+		            para[count] = (long)atRawPara[count].paraStr;
                     ppara[count] = atRawPara[count].paraStr;
 		            continue;
 		        }
@@ -1188,7 +1188,7 @@ API void CmdParse(LPCSTR pchCmd, uint8_t byCmdLen)
                           
   ����ֵ˵����������Ϊ����, ���ظ�����; Ϊ��ͨ�ַ��򷵻ظ��ַ�ָ��.
   ====================================================================*/
-API int WordParse(LPCSTR word)
+API long WordParse(LPCSTR word)
 {
     int tmp;
 	uint16_t len = 0;
@@ -1202,7 +1202,7 @@ API int WordParse(LPCSTR word)
     tmp = atoi(word);
     if((tmp == 0) && word[0] != '0')
     {
-		return (int)word;
+		return (long)word;
     }
 	
 	chTmp = word[0];
@@ -1218,7 +1218,7 @@ API int WordParse(LPCSTR word)
 	}
 	else
 	{
-		return (int)word;
+		return (long)word;
 	}
 }
 

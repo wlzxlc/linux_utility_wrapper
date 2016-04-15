@@ -97,7 +97,7 @@ API void TeleCmdEcho(const char *pchCmdStr, uint32_t wLen);
 API void CmdParse(const char *pchCmd, uint8_t byCmdLen);
 API char *GetBaseModName(char *pchModName);
 API void RunCmd(char * szCmd);
-API int WordParse(const char *word);
+API long WordParse(const char *word);
 API BOOL32 TelePrint(const char *pchMsg);
 API void CheckAuthorization(char *szCmd,uint32_t dwCmdlen);
 API void OspRegCommand(const char* name, void* func, const char* usage);
