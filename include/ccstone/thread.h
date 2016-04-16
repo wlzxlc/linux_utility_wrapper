@@ -218,7 +218,11 @@ class Thread {
         {
             AutoLock lock(&_mutex);
             if (_run) {
+#ifndef PRIu64
+             ALOGD("Wait %llu(ms)", (unsigned long long )ms);
+#else
              ALOGD("Wait %"PRIu64 "(ms)", ms);
+#endif
              SCOPEDDEBUG();
              _cond.timedWait(&_mutex, ms);
             }
