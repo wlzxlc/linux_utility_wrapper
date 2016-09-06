@@ -295,19 +295,7 @@ extern "C" {
     __trace_log_assert(cond, tag, \
         __trace_second(0, ## fmt, NULL) __trace_rest(fmt))
 
-#define trace_bWriteLog(tag, payload, len) \
-    __trace_log_bwrite(tag, payload, len)
-#define trace_btWriteLog(tag, type, payload, len) \
-    __trace_log_btwrite(tag, type, payload, len)
-
-// TODO: remove these prototypes and their users
 #define trace_testLog(prio, tag) (1)
-#define trace_writevLog(vec,num) do{}while(0)
-#define trace_write1Log(str,len) do{}while (0)
-#define trace_setMinPriority(tag, prio) do{}while(0)
-//#define trace_logToCallback(func) do{}while(0)
-#define trace_logToFile(tag, file) (0)
-#define trace_logToFd(tag, fd) (0)
 
 #define LITERAL_TO_STRING_INTERNAL(x)    #x
 #define LITERAL_TO_STRING(x) LITERAL_TO_STRING_INTERNAL(x)

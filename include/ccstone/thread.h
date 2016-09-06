@@ -9,6 +9,14 @@
 #include <inttypes.h>
 #include "common_type.h"
 #include "defines.h"
+#ifndef ERRNUMSTR
+#define ERRNUMSTR(...) __LINE__
+#endif
+
+#ifndef ERRNUM
+#define ERRNUM(v) v
+#endif
+
 #ifdef __cplusplus
 namespace CCStone {
 class Mutex {

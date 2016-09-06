@@ -9,8 +9,6 @@
  */
 #ifndef LOG_H
 #define LOG_H
-#include <stdarg.h>
-#include "common_type.h"
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -30,17 +28,17 @@ enum {
 	TRACE_LOG_SILENT, /* only for SetMinPriority(); must be last */
 };
 
-typedef status_t (*trace_log_write)(int prio, const char *tag, const char *msg);
+typedef int (*trace_log_write)(int prio, const char *tag, const char *msg);
 
 /*
  * Redirect log output
  */
-status_t __trace_log_redirect(trace_log_write);
+int __trace_log_redirect(trace_log_write);
 
 /*
  * Send a formatted string to the log, used like printf(fmt,...)
  */
-status_t __trace_log_print(int prio, const char *tag, const char *fmt, ...)
+int __trace_log_print(int prio, const char *tag, const char *fmt, ...)
 #if defined(__GNUC__)
 		__attribute__ ((format(printf, 3, 4)))
 #endif
@@ -56,6 +54,18 @@ void __trace_log_assert(const char *cond, const char *tag, const char *fmt, ...)
 		__attribute__ ((format(printf, 3, 4)))
 #endif
 		;
+
+/*
+ * Write log to file and set the file size.
+ * OK return 0, otherwise -1
+ */
+int __trace_set_log_file(const char *file, unsigned max_size);
+
+/*
+ *Set log level with return last level
+ */
+int __trace_set_log_level(int level);
+
 
 #ifdef __cplusplus
 }
