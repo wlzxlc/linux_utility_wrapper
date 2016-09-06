@@ -3,7 +3,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdint.h>
-#include <ccstone/logd.h>
+
+#include "../log_defs.h"
 
 typedef unsigned BOOL32;
 

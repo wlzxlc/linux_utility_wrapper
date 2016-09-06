@@ -17,7 +17,8 @@
 #include <string.h>
 #include <strings.h>
 #include <sstream>
-extern "C" {
+extern "C"
+{
 #endif
 
 // ---------------------------------------------------------------------
@@ -57,7 +58,6 @@ extern "C" {
 #endif
 #endif
 
-
 #define CONDITION(cond)     (__builtin_expect((cond)!=0, 0))
 
 #ifndef ALOGV_IF
@@ -71,14 +71,12 @@ extern "C" {
 #endif
 #endif
 
-
 /*
  * Simplified macro to send a debug log message using the current LOG_TAG.
  */
 #ifndef ALOGD
 #define ALOGD(...) ((void)ALOG(LOG_DEBUG, LOG_TAG, __VA_ARGS__))
 #endif
-
 
 #ifndef ALOGD_IF
 #define ALOGD_IF(cond, ...) \
@@ -87,14 +85,12 @@ extern "C" {
     : (void)0 )
 #endif
 
-
 /*
  * Simplified macro to send an info log message using the current LOG_TAG.
  */
 #ifndef ALOGI
 #define ALOGI(...) ((void)ALOG(LOG_INFO, LOG_TAG, __VA_ARGS__))
 #endif
-
 
 #ifndef ALOGI_IF
 #define ALOGI_IF(cond, ...) \
@@ -192,12 +188,10 @@ extern "C" {
     : (void)0 )
 #endif
 
-
 #ifndef LOG_ALWAYS_FATAL
 #define LOG_ALWAYS_FATAL(...) \
     ( ((void)trace_printAssert(NULL, LOG_TAG, ## __VA_ARGS__)) )
 #endif
-
 
 /*
  * Versions of LOG_ALWAYS_FATAL_IF and LOG_ALWAYS_FATAL that
@@ -250,7 +244,6 @@ extern "C" {
 #define LOG_PRI(priority, tag, ...) \
     trace_printLog(priority, tag, __VA_ARGS__)
 #endif
-
 
 #ifndef ALOG
 #define ALOG(priority, tag, ...) \

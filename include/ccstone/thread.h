@@ -8,7 +8,8 @@
 #include <malloc.h>
 #include <inttypes.h>
 #include "common_type.h"
-#include "defines.h"
+#include "log_defs.h"
+#include "scope_debug.h"
 #ifndef ERRNUMSTR
 #define ERRNUMSTR(...) __LINE__
 #endif

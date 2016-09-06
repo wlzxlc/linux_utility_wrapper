@@ -1,7 +1,8 @@
+
 #define LOG_TAG "TestLog"
 #define LOG_NDEBUG 0
-#include <ccstone/defines.h>
-#include <ccstone/logd.h>
+#include "../../include/ccstone/scope_debug.h"
+#include "../../include/ccstone/log_defs.h"
 #include <unistd.h>
 int main(int argc, char **args)
 {

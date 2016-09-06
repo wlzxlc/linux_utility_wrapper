@@ -1,7 +1,8 @@
+
 #define LOG_TAG "TestThread"
 #define LOG_NDEBUG 0
-#include <ccstone/defines.h>
-#include <ccstone/logd.h>
+#include <ccstone/scope_debug.h>
+#include "ccstone/log_defs.h"
 #include <ccstone/thread.h>
 #include <unistd.h>
 
