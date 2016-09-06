@@ -2,7 +2,6 @@
 #define LOG_NDEBUG 0
 #include <ccstone/defines.h>
 #include <ccstone/logd.h>
-#include <ccstone/thread.h>
 #include <unistd.h>
 int main(int argc, char **args)
 {
@@ -26,6 +25,7 @@ int main(int argc, char **args)
   DEBUG("trace log.");
   {
 	  SCOPEDDEBUG();
+      sleep(1);
   }
   __trace_set_log_file(NULL, 0);
   return 0;

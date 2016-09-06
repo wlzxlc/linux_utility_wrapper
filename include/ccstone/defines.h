@@ -30,7 +30,7 @@ class ScodedDebug {
             line(l)
         {
             unsigned tid;
-            tid = static_cast<unsigned int> ((syscall(__NR_gettid)));
+            tid = static_cast<unsigned int> (getpid());
 
             gettimeofday(&_start,NULL);
             ALOG(LOG_DEBUG, LOG_TAG, "[ScopedDebug]:%s(), L%d, tid:%u| --> %s (0 ms)",
@@ -41,7 +41,7 @@ class ScodedDebug {
         {
             struct timeval end;
             unsigned tid;
-            tid = static_cast<unsigned int> ((syscall(__NR_gettid)));
+            tid = static_cast<unsigned int> (getpid());
 
             gettimeofday(&end,NULL);
             long long interval_us = 0;
